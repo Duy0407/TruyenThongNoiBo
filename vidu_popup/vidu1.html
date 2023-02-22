@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cài đặt nhân viên chung</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/select2.min.css">
+  <link rel="stylesheet" href="../css/caidat.css">
+  <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+<style>
+  div {
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 300px;
+  }
+  </style>
+
+</head>
+<body>
+<div>Click here</div>
+<div>to iterate through</div>
+<div>these divs.</div>
+ 
+
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script type="type/javascript" src="../js/lazysizes.min.js"></script>
+<script src="../js/select2.min.js"></script>
+<script type="text/javascript">
+$( document.body ).click(function() {
+  $( "div" ).each(function( i ) {
+    if ( this.style.color !== "blue" ) {
+      this.style.color = "blue";
+    } else {
+      this.style.color = "";
+    }
+  });
+});
+</script>
+</html>

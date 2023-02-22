@@ -1,0 +1,32 @@
+Những phần chưa làm luồng khách sạn : 
+- Đổ dữ liệu trang xem thêm ảnh 
+- ĐỔ dữ liệu trang tìm kiếm khách sạn 
+- ĐỔ dữ liệu trang nhận xét khách sạn 
+- ĐỔ dữ liệu trang lịch mở bán phòng 
+- ĐỔ dữ liệu trang khách sạn ngừng hoạt động 
+- ĐỔ dữ liệu trang chủ khách sạn 
+- ĐỔ dữ liệu trang hồ sơ khách hàng 
+- Tạo chức năng đặt phòng khách sạn 
+- Đổ dữ liệu trang chi tiết khách sạn 
+- Đổ dữ liệu trang báo cáo doanh thu khách sạn 
+- ĐỔ dữ liệu trang báo cáo đặt phòng 
+Các chức năng nhỏ :
+- Tính % khách sạn , đã tạo trong luồng khách sạn ngưng hoạt động
+- Tính validate thiết lập phòng ảnh khác
+- chỉnh sửa luồng khuyến mãi , sao chép luồng khuyến mãi.
+- Google map , danh sách ngân hàng, chi nhánh ngân hàng, thuộc chuỗi(chưa có dữ liệu), 
+
+Những phần đã làm luồng Khách sạn : 
+- Đổ dữ liệu luồng đăng ký khách sạn, khách hàng, đăng nhập khách sạn, khách hàng ,
+ - Đổ dữ liệu luồng quên mật khẩu
+- LUồng tạo mới khách sạn: Thông tin chung, tiện nghi dịch vụ , thiết lập phòng, thư viện ảnh, 
+chính sách, thông tin thanh toán
+- Đổ dữ liệu danh sách khách sạn
+- Đổ dữ liệu luồng chỉnh sửa dữ liệu khách sạn :  Thông tin chung, tiện nghi dịch vụ , thiết lập phòng, thư viện ảnh, 
+chính sách, thông tin thanh toán .
+- ĐỔ dữ liệu luồng tạo khuyến mãi : khuyến mãi tùy chọn , khuyến mãi ưu đãi đặt sớm, khuyến mãi
+đặt phòng giờ chót , thời gian có hạn , du lịch cuối tuần , lưu trú dài hạn .
+- Đổ dữ liệu danh sách khuyến mãi 
+- ĐỔ dữ liệu ghim tin khách sạn .
+
+link figma : https://www.figma.com/file/39CiyjTJUHVwlUJFDuIg51/Hunghabay.vn-(2022)?node-id=0%3A1

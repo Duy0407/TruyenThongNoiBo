@@ -1,0 +1,104 @@
+<meta charset="UTF-8">
+
+<table>
+        <tr>
+            <th>STT</th>
+            <th>MÔN HỌC</th>
+            <th>MÔN HỌC CHI TIẾT</th>
+        </tr>
+
+    <tr>
+        <td><center>1</center></td>
+        <td><center>Sales - Chăm sóc khách hàng</center></td>
+        <td><center>Khóa Học E Commerce, <br>Khóa Học Shopee Online, <br>Khóa Học Bán Hàng Online, <br>Khóa Học Shopee, <br>Khóa Học Bán Hàng Trên Shopee, <br>Khóa Học Bán Hàng, <br>Khóa Học Business Analyst, <br>Khóa Học Ba, <br>Khóa Học Power Bi, <br>Khóa Học Bất Dộng Sản, <br>Khóa Học Forex, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>2</center></td>
+        <td><center>Kỹ năng quản trị</center></td>
+        <td><center>Khóa Học Ceo, <br>Khóa Học Data Science, <br>Khoá Học Giám Đốc Điều Hành, <br>Khoá Học Giám Đốc Tài Chính, <br>Khóa Học Mba, <br>Khóa Học Okr, <br>Khóa Học Quản Lý Cấp Trung, <br>Khóa Học Quản Lý Nhà Hàng, <br>Khóa Học Quản Lý Tòa Nhà, <br>Khóa Học Quản Trị Doanh Nghiệp, <br>Khóa Học Quản Trị Khách Sạn, <br>Khóa Học Quản Trị Kinh Doanh, <br>Khóa Học Quản Trị Nhân Sự, <br>Khóa Học Supply Chain, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>3</center></td>
+        <td><center>Khóa học Tiếng Anh</center></td>
+        <td><center>Khóa Học Tiếng Anh Giao Tiếp, <br>Khóa Học Ielts, <br>Khóa Học Toeic, <br>Khóa Học Tiếng Anh Cho Người Mất Gốc, <br>Khóa Học Ngữ Pháp Tiếng Anh, <br>Khóa Học Writing Online, <br>Khóa Học Ielts 6.5, <br>Khóa Học Tiếng Anh Cho Người Mất Gốc, <br>Khóa Học Phát Âm Tiếng Anh, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>4</center></td>
+        <td><center>Phần mềm</center></td>
+        <td><center>Khóa Học Zbrush, <br>Khóa Học Fl Studio, <br>Khóa Học Vba, <br>Khóa Học Sketchnote, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>5</center></td>
+        <td><center>Thiết kế đồ họa</center></td>
+        <td><center>Khóa Học 2D Animation, <br>Khóa Học 3D, <br>Khóa Học 3D Modeling, <br>Khóa Học 3Ds Max, <br>Khóa Học Autocad, <br>Khóa Học Cinema 4D, <br>Khóa Học Design, <br>Khóa Học Edit Video, <br>Khóa Học Illustrator, <br>Khóa Học Photoshop, <br>Khóa Học Producer, <br>Khóa Học Revit, <br>Khóa Học Sketchup, <br>Khóa Học Thiết Kế Đồ Họa, <br>Khóa Học Thiết Kế Nội Thất, <br>Khóa Học Ui Ux, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>6</center></td>
+        <td><center>Marketing</center></td>
+        <td><center>Khóa Học Adwords, <br>Khóa Học Affiliate Marketing, <br>Khóa Học Content Marketing, <br>Khóa Học Digital Marketing, <br>Khóa Học Email Marketing, <br>Khóa Học Facebook Ads, <br>Khóa Học Facebook Marketing, <br>Khóa Học Google Ads, <br>Khóa Học Marketing Cho Người Mới Bắt Đầu, <br>Khóa Học Marketing Cơ Bản, <br>Khóa Học Quản Trị Marketing, <br>Khóa Học Seo, <br>Khóa Học Youtube Marketing, <br>Khóa Học Zalo Marketing, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>7</center></td>
+        <td><center>Kinh doanh</center></td>
+        <td><center></center></td>
+    </tr>
+    <tr>
+        <td><center>8</center></td>
+        <td><center>IT và lập trình</center></td>
+        <td><center>Khóa Học Ai, <br>Khóa Học An Ninh Mạng, <br>Khóa Học Angular, <br>Khóa Học Asp Net, <br>Khóa Học Automation Test, <br>Khóa Học Bảo Mật An Ninh Mạng, <br>Khóa Học Ccna, <br>Khóa Học Data Analysis, <br>Khóa Học Devops, <br>Khóa Học Flutter, <br>Khóa Học Front End, <br>Khóa Học Html, <br>Khóa Học Iot, <br>Khóa Học It Comtor, <br>Khóa Học Java, <br>Khóa Học Java Cơ Bản, <br>Khóa Học Java Spring, <br>Khóa Học Java Web, <br>Khóa Học Javascript, <br>Khóa Học Javascript Chuyên Sâu, <br>Khóa Học Lập Trình Android, <br>Khóa Học Lập Trình C, <br>Khóa Học Lập Trình Cho Trẻ Em, <br>Khóa Học Lập Trình Game, <br>Khóa Học Lập Trình Php, <br>Khóa Học Lập Trình Python, <br>Khóa Học Linux, <br>Khóa Học Machine Learning, <br>Khóa Học Mcsa, <br>Khóa Học Nlp, <br>Khóa Học Nodejs, <br>Khóa Học Oracle, <br>Khóa Học Python, <br>Khóa Học Quản Trị Mạng, <br>Khóa Học React Native, <br>Khóa Học Reactjs, <br>Khóa Học Sql, <br>Khóa Học Sql Cơ Bản, <br>Khóa Học Tester, <br>Khóa Học Thiết Kế Web, <br>Khóa Học Wordpress, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>9</center></td>
+        <td><center>Hành chính Nhân sự</center></td>
+        <td><center>Khóa Học Hành Chính Văn Phòng, <br>Khóa Học C&b, <br>Khóa Học Nhân Sự Ngắn Hạn, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>10</center></td>
+        <td><center>Tài chính</center></td>
+        <td><center>Khóa Học Chứng Khoán, <br>Khóa Học Cfa, <br>Khóa Học Nghiệp Vụ Ngân Hàng, <br>Khóa Học Về Chứng Khoán, <br>Khóa Học Tài Chính Doanh Nghiệp, <br>Khóa Học Cfa, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>11</center></td>
+        <td><center>Kế toán</center></td>
+        <td><center>Khóa Học Kế Toán, <br>Khóa Học Kế Toán Tổng Hợp, <br>Khóa Học Kế Toán Thuế, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>12</center></td>
+        <td><center>Phát triển cá nhân</center></td>
+        <td><center>Khóa Học Xây Dựng Thương Hiệu Cá Nhân, <br>Khoá Học Mc, <br>Khóa Học Phát Triển Bản Thân, <br>Khóa Học Kỹ Năng Mềm, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>13</center></td>
+        <td><center>Đời sống</center></td>
+        <td><center>Khóa Học Bartender, <br>Khóa Học Bơi, <br>Khóa Học Dạy Con Thông Minh, <br>Khóa Học Dj, <br>Khóa Học Golf Cơ Bản, <br>Khóa Học Guitar, <br>Khoá Học Hát, <br>Khóa Học Làm Bánh, <br>Khóa Học Làm Bánh Ngắn Hạn, <br>Khóa Học Làm Kem Tươi, <br>Khóa Học Nail Chuyên Nghiệp, <br>Khóa Học Nấu Ăn, <br>Khóa Học Nhiếp Ảnh, <br>Khóa Học Pha Chế Đồ Uống, <br>Khóa Học Phun Xăm, <br>Khóa Học Piano, <br>Khóa Học Spa, <br>Khóa Học Tâm Lý Học, <br>Khóa Học Thanh Nhạc, <br>Khóa Học Thiết Kế Thời Trang, <br>Khóa Học Trang Điểm Cá Nhân, <br>Khóa Học Yoga, <br>Khóa Học Vẽ Cơ Bản, <br>Khóa Học Guitar Hiển Râu, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>14</center></td>
+        <td><center>Kỹ năng con người</center></td>
+        <td><center>Khóa Học Siêu Trí Nhớ, <br>Khóa Học Giao Tiếp Ứng Xử, <br>Khóa Học Kỹ Năng Giao Tiếp, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>15</center></td>
+        <td><center>Kỹ năng công việc</center></td>
+        <td><center></center></td>
+    </tr>
+    <tr>
+        <td><center>16</center></td>
+        <td><center>Tin học văn phòng</center></td>
+        <td><center>Khóa Học Excel, <br>Khóa Học Excel Cho Người Đi Làm, <br>Khóa Học Excel Nâng Cao, <br>Khóa Học Powerpoint, <br>Khóa Học Word, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>17</center></td>
+        <td><center>Khóa học Tiếng Nhật</center></td>
+        <td><center>Khóa Học Tiếng Nhật, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>18</center></td>
+        <td><center>Khóa học Tiếng Hàn</center></td>
+        <td><center>Khóa Học Tiếng Hàn, <br></center></td>
+    </tr>
+    <tr>
+        <td><center>19</center></td>
+        <td><center>Khóa học Tiếng Trung</center></td>
+        <td><center>Khóa Học Tiếng Trung, <br></center></td>
+    </tr></table>

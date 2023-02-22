@@ -1,0 +1,119 @@
+RewriteEngine On    
+RewriteBase /
+RewriteRule  ^$ home/index.php
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+    #RewriteEngine On
+    #RewriteCond %{HTTPS} off
+    #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    #RewriteCond %{HTTP_HOST} www\.(.+)$ [NC]
+    #RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /home/404.php
+ 
+RewriteRule ^dang-nhap.html$ /home/dangnhap.php [NE,L]
+RewriteRule ^dang-nhap-cong-ty.html$ /home/dntaikhoanct.php [NE,L]
+RewriteRule ^dang-nhap-nhan-vien.html$ /home/dntaikhoannv.php [NE,L]
+RewriteRule ^quen-mat-khau.html$ /home/quenmk.php [NE,L] 
+RewriteRule ^khoi-phuc-mat-khau.html$ /home/khoiphucmk.php [NE,L] 
+RewriteRule ^khoi-phuc-mat-khau-tc.html$ /home/kpmatkhautc.php [NE,L] 
+
+RewriteRule ^cai-dat-ql-nv.html$ /home/cd_qlcc_nv.php [NE,L] 
+RewriteRule ^quan-ly-du-lieu-da-xoa.html$ /home/ql_dldx.php [NE,L] 
+
+RewriteRule ^quan-ly-chung.html$ /home/trang_chu_sdn.php [NE,L] 
+RewriteRule ^tin-nhan/(.*).html$ /home/framenhantin.php?$1=1 [NE,L] 
+RewriteRule ^tin-nhan.html$ /home/framenhantin.php [NE,L] 
+
+RewriteRule ^chi-tiet-tin-dang.html$ /home/chi_tiet_bai_dang.php [NE,L] 
+
+RewriteRule ^truyen-thong-noi-bo-cong-ty.html$ /home/ttnb_page_company.php [NE,L] 
+RewriteRule ^truyen-thong-noi-bo-nhom-thao-luan-b([0-9]+)$ /home/ttnb_page_group_tl.php?dep_id=$1 [NE,L]
+RewriteRule ^truyen-thong-noi-bo-nhom-thao-luan-c([0-9]+)$ /home/ttnb_page_group_tl_child.php?dep_id=$1 [NE,L]
+RewriteRule ^truyen-thong-noi-bo-sinh-nhat.html$ /home/ttnb_sinhnhat.php [NE,L] 
+RewriteRule ^truyen-thong-noi-bo-su-kien.html$ /home/ttnb_page_event.php [NE,L] 
+RewriteRule ^trang-chu-sau-dang-nhap.html$ /home/general_manager.php [NE,L] 
+
+
+RewriteRule ^huong-dan.html$ /home/huongdan.php [NE,L]
+
+RewriteRule ^quan-tri-tri-thuc-wiki.html$ /home/quantri_wiki.php [NE,L]
+RewriteRule ^qttt-trao-doi-cau-hoi.html$ /home/quantri_trao_doi.php [NE,L]
+RewriteRule ^qttt-cau-hoi-cua-toi.html$ /home/quantri_cau_hoi.php [NE,L]
+
+RewriteRule ^vhdn-thu-tu-seo.html$ /home/vhdn_thutuceo.php [NE,L]
+RewriteRule ^vhdn-tam-nhin-su-menh.html$ /home/vhdn_tamnhin.php [NE,L]
+RewriteRule ^vhdn-gia-tri-muc-tieu.html$ /home/vhdn_giatri_muctieu.php [NE,L]
+RewriteRule ^vhdn-nguyen-tac-lam-viec.html$ /home/vhdn_nguyentac.php [NE,L]
+RewriteRule ^vhdn-danh-sach-phong-ban.html$ /home/vhdn_phongban.php [NE,L]
+RewriteRule ^vhdn-cai-dat-lich-cap-nhat.html$ /home/vhdn_lichcapnhat.php [NE,L]
+
+
+RewriteRule ^trang-chu-nhan-vien.html$ /new_view/index_employee_new.php [NE,L]
+RewriteRule ^chi-tiet-tin-24h.html$ /home/ep_detail_new_24h.php [NE,L]
+RewriteRule ^page-ban-be.html$ /home/index_friend.php [NE,L]
+RewriteRule ^loi-moi-ket-ban.html$ /home/friend_request.php [NE,L]
+RewriteRule ^goi-y-ket-ban.html$ /home/sugget_friend.php [NE,L]
+RewriteRule ^tat-ca-ban-be.html$ /home/all_friends.php [NE,L]
+RewriteRule ^ky-niem.html$ /home/memory.php [NE,L]
+RewriteRule ^nhom.html$ /home/ep_group.php [NE,L]
+RewriteRule ^nhom-cong-khai.html$ /home/ep_group_public.php [NE,L]
+RewriteRule ^chi-tiet-bai-viet.html$ /home/detail_news.php [NE,L]
+
+RewriteRule ^trang-ca-nhan.html$ /new_view/ep_individual_new.php [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)$ /new_view/ep_individual_new.php?ep_id=$1&content=1 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/post$ /new_view/ep_individual_new.php?ep_id=$1&content=1 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/intro$ /new_view/ep_individual_new.php?ep_id=$1&content=2 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/friend$ /new_view/ep_individual_new.php?ep_id=$1&content=3 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/image$ /new_view/ep_individual_new.php?ep_id=$1&content=4 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/album-a([0-9]+)$ /new_view/ep_individual_new.php?ep_id=$1&content=4&album=$2 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/video$ /new_view/ep_individual_new.php?ep_id=$1&content=5 [NE,L]
+RewriteRule ^trang-ca-nhan-e([0-9]+)/group$ /new_view/ep_individual_new.php?ep_id=$1&content=6 [NE,L]
+
+RewriteRule ^bo-suu-tap.html$ /home/ep_collection.php [NE,L]
+RewriteRule ^tao-tin-24h.html$ /home/create_story.php [NE,L]
+RewriteRule ^goi-y-nhom.html$ /home/suggest_group.php [NE,L]
+RewriteRule ^tim-kiem-trong-trang-ca-nhan.html$ /home/search_individual.php [NE,L]
+
+
+RewriteRule ^tao-album.html$ /new_view/create_album_new.php [NE,L]
+RewriteRule ^sua-album-([0-9]+).html$ /new_view/create_album_new.php?id_album=$1 [NE,L]
+
+
+
+
+
+
+RewriteRule ^([^/]+)-([0-9]+)-tong-quan-nhom.html$ /new_view/tong_quan_nhom.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-cau-hoi-chon-thanh-vien\.html$ /new_view/member_selection_question.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-yeu-cau-lam-thanh-vien\.html$ /new_view/yc_lam_thanh_vien.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-quy-tac-nhom\.html$ /new_view/quy_tac_nhom.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-cai-dat-nhom\.html$ /new_view/group_setting.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-bai-viet-dang-cho\.html$ /new_view/bai_viet_dang_cho.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-noi-dung-thanh-vien-bao-cao\.html$ /new_view/noidung_member_baocao.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-tuong-tac\.html$ /new_view/tuong_tac.php?id=$2&%{QUERY_STRING} [NE,L]
+RewriteRule ^([^/]+)-([0-9]+)-bai-viet-da-len-lich\.html$ /new_view/bai_viet_da_len_lich.php?id=$2&%{QUERY_STRING} [NE,L]
+
+#RewriteRule ^bai-viet-da-len-lich\.html$ /new_view/bai_viet_da_len_lich.php [NE,L]
+
+RewriteRule ^([^/]+)-([0-9]+)-muc-do-tang-truong\.html$ /new_view/muc_do_tang_truong.php?id=$2&%{QUERY_STRING} [NE,L]
+
+RewriteRule ^kham-pha.html$ /new_view/group_khampha.php [NE,L]
+
+
+RewriteRule ^vao-nhom.html$ /new_view/vao_nhom.php [NE,L]
+#RewriteRule ^group/([^/]+)-([0-9]+)\.html$ /new_view/vao_nhom.php?id=$2&%{QUERY_STRING} [NE,L]
+
+
+RewriteRule ^groups-my_pending_content-([0-9]+)$ /new_view/my_pending_content.php?id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^groups-my_posted_content-([0-9]+)$ /new_view/my_posted_content.php?id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^groups-my_scheduled_content-([0-9]+)$ /new_view/my_scheduled_content.php?id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^groups-my_removed_content-([0-9]+)$ /new_view/my_removed_content.php?id=$1&%{QUERY_STRING} [NE,L]
+RewriteRule ^groups-my_declined_content-([0-9]+)$ /new_view/my_declined_content.php?id=$1&%{QUERY_STRING} [NE,L]
+
+
+RewriteRule ^([^/]+)-([0-9]+)\.html$ /new_view/private_group.php?id=$2&%{QUERY_STRING} [NE,L]
+

@@ -1,0 +1,88 @@
+-- phpMyAdmin SQL Dump
+-- version 4.6.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Generation Time: Sep 13, 2021 at 05:34 PM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 5.6.40
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `khhoccom_com`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `categories`
+--
+
+CREATE TABLE `categories` (
+  `cate_id` int(11) NOT NULL,
+  `cate_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `cate_slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `cate_icon` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
+  `content_on` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `title_suggest_on` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `content_suggest_on` text COLLATE utf8_unicode_ci NOT NULL,
+  `content_off` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `title_suggest_off` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `content_suggest_off` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`cate_id`, `cate_name`, `cate_slug`, `cate_icon`, `content_on`, `title_suggest_on`, `content_suggest_on`, `content_off`, `title_suggest_off`, `content_suggest_off`) VALUES
+(1, 'Sales - Chăm sóc khách hàng', 'sales-cham-soc-khach-hang', 'cskh.svg', '<p>1<img alt="" height="109" src="https://khoahoc.timviec365.com//picturesimages/acb.png" width="185" /></p>\n\n<p><span style="color: rgb(35, 35, 35); font-family: Roboto; font-size: 16px; font-style: italic; text-align: justify; text-indent: 15px;">Đối với mỗi c&aacute; nh&acirc;n ở vị tr&iacute; chức vụ v&agrave; c&oacute; vai tr&ograve; kh&aacute;c nhau trong x&atilde; hội sẽ c&oacute; y&ecirc;u cầu th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch kh&aacute;c nhau. Cụ thể nhất l&agrave; th&aacute;i độ ch&iacute;nh trị giữa những c&aacute; nh&acirc;n l&agrave; Đảng vi&ecirc;n v&agrave; những người kh&ocirc;ng phải l&agrave; Đảng vi&ecirc;n. B&agrave;i viết n&agrave;y sẽ dung cấp những th&ocirc;ng tin th&uacute; vị cho bạn về th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch của từng đối tượng.</span></p>\n\n<p>&nbsp;</p>\n\n<h2 dir="ltr" id="khai-quat-ve-thai-do-chinh-tri-trong-so-yeu-ly-lich" style="margin-top: 10px; margin-right: 0px; margin-left: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; letter-spacing: 0.02em; font-family: Roboto !important; line-height: 28px !important; color: rgb(34, 104, 167) !important; font-size: 19px !important;"><span style="margin: 10px 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; line-height: 28px !important;">1. Kh&aacute;i qu&aacute;t về th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch</span></h2>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Trước khi hiểu về tầm quan trọng của th&aacute;i độ ch&iacute;nh trị th&igrave; phải t&igrave;m hiểu được ch&iacute;nh trị l&agrave; g&igrave;? Ch&iacute;nh trị c&oacute; thể được hiểu một c&aacute;ch kh&aacute;i qu&aacute;t nhất l&agrave; mối quan hệ hoạt động giữa c&aacute;c tầng lớp, giai cấp v&agrave; cũng như sự tương t&aacute;c giữa c&aacute;c quốc gia d&acirc;n tộc với nhau trong vấn đề x&acirc;y dựng, giữ g&igrave;n v&agrave; ph&aacute;t triển Nh&agrave; nước, x&atilde; hội.</span></p>\n\n<h2 dir="ltr" id="thai-do-chinh-tri-trong-so-yeu-ly-lich" style="margin-top: 10px; margin-right: 0px; margin-left: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; letter-spacing: 0.02em; font-family: Roboto !important; line-height: 28px !important; color: rgb(34, 104, 167) !important; font-size: 19px !important;"><span style="margin: 10px 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; line-height: 28px !important;">2. Th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch&nbsp;</span></h2>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Sơ yếu l&yacute; lịch l&agrave; giấy tờ k&ecirc; khai th&ocirc;ng tin của c&aacute; nh&acirc;n bao gồm th&ocirc;ng tin của bản th&acirc;n, th&ocirc;ng tin của người th&acirc;n, gia đ&igrave;nh v&agrave; hoạt động, qu&aacute; tr&igrave;nh c&ocirc;ng t&aacute;c của c&aacute; nh&acirc;n trong một khoảng thời gian nhất định được y&ecirc;u cầu.</span></p>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Như đ&atilde; đề cập ở tr&ecirc;n, mỗi th&agrave;nh phần trong x&atilde; hội th&igrave; sẽ được y&ecirc;u cầu với những th&aacute;i độ ch&iacute;nh trị kh&aacute;c nhau v&igrave; vậy th&aacute;i độ ch&iacute;nh trị của từng người trong sơ yếu l&yacute; lịch cũng kh&ocirc;ng giống nhau.</span></p>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Cụ thể đối với c&aacute;n bộ Đảng vi&ecirc;n, th&aacute;i độ ch&iacute;nh trị của họ l&agrave; phải c&oacute; tr&aacute;ch nhiệm trung thực k&ecirc; khai rằng bản th&acirc;n đ&atilde; tham gia tổ chức c&aacute;ch mạng (Từ ng&agrave;y - th&aacute;ng - năm n&agrave;o?). Trong qu&aacute; tr&igrave;nh hoạt động c&aacute;ch mạng th&igrave; l&agrave;m c&ocirc;ng t&aacute;c g&igrave;? Giữ vai tr&ograve; g&igrave;?&nbsp;</span></p>\n', '123123', '<p>123123123</p>\n\n<p>&nbsp;</p>\n\n<p><a href="http://khoahoc.timviec365.com">link</a></p>\n', '<p>1<img alt="" height="109" src="https://khoahoc.timviec365.com//picturesimages/acb.png" width="185" /></p>\n\n<p><span style="color: rgb(35, 35, 35); font-family: Roboto; font-size: 16px; font-style: italic; text-align: justify; text-indent: 15px;">Đối với mỗi c&aacute; nh&acirc;n ở vị tr&iacute; chức vụ v&agrave; c&oacute; vai tr&ograve; kh&aacute;c nhau trong x&atilde; hội sẽ c&oacute; y&ecirc;u cầu th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch kh&aacute;c nhau. Cụ thể nhất l&agrave; th&aacute;i độ ch&iacute;nh trị giữa những c&aacute; nh&acirc;n l&agrave; Đảng vi&ecirc;n v&agrave; những người kh&ocirc;ng phải l&agrave; Đảng vi&ecirc;n. B&agrave;i viết n&agrave;y sẽ dung cấp những th&ocirc;ng tin th&uacute; vị cho bạn về th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch của từng đối tượng.</span></p>\n\n<p>&nbsp;</p>\n\n<h2 dir="ltr" id="khai-quat-ve-thai-do-chinh-tri-trong-so-yeu-ly-lich" style="margin-top: 10px; margin-right: 0px; margin-left: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; letter-spacing: 0.02em; font-family: Roboto !important; line-height: 28px !important; color: rgb(34, 104, 167) !important; font-size: 19px !important;"><span style="margin: 10px 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; line-height: 28px !important;">1. Kh&aacute;i qu&aacute;t về th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch</span></h2>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Trước khi hiểu về tầm quan trọng của th&aacute;i độ ch&iacute;nh trị th&igrave; phải t&igrave;m hiểu được ch&iacute;nh trị l&agrave; g&igrave;? Ch&iacute;nh trị c&oacute; thể được hiểu một c&aacute;ch kh&aacute;i qu&aacute;t nhất l&agrave; mối quan hệ hoạt động giữa c&aacute;c tầng lớp, giai cấp v&agrave; cũng như sự tương t&aacute;c giữa c&aacute;c quốc gia d&acirc;n tộc với nhau trong vấn đề x&acirc;y dựng, giữ g&igrave;n v&agrave; ph&aacute;t triển Nh&agrave; nước, x&atilde; hội.</span></p>\n\n<h2 dir="ltr" id="thai-do-chinh-tri-trong-so-yeu-ly-lich" style="margin-top: 10px; margin-right: 0px; margin-left: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; letter-spacing: 0.02em; font-family: Roboto !important; line-height: 28px !important; color: rgb(34, 104, 167) !important; font-size: 19px !important;"><span style="margin: 10px 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-style: inherit; vertical-align: baseline; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; line-height: 28px !important;">2. Th&aacute;i độ ch&iacute;nh trị trong sơ yếu l&yacute; lịch&nbsp;</span></h2>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Sơ yếu l&yacute; lịch l&agrave; giấy tờ k&ecirc; khai th&ocirc;ng tin của c&aacute; nh&acirc;n bao gồm th&ocirc;ng tin của bản th&acirc;n, th&ocirc;ng tin của người th&acirc;n, gia đ&igrave;nh v&agrave; hoạt động, qu&aacute; tr&igrave;nh c&ocirc;ng t&aacute;c của c&aacute; nh&acirc;n trong một khoảng thời gian nhất định được y&ecirc;u cầu.</span></p>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Như đ&atilde; đề cập ở tr&ecirc;n, mỗi th&agrave;nh phần trong x&atilde; hội th&igrave; sẽ được y&ecirc;u cầu với những th&aacute;i độ ch&iacute;nh trị kh&aacute;c nhau v&igrave; vậy th&aacute;i độ ch&iacute;nh trị của từng người trong sơ yếu l&yacute; lịch cũng kh&ocirc;ng giống nhau.</span></p>\n\n<p dir="ltr" style="margin-bottom: 10pt; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(35, 35, 35); line-height: 28px; text-indent: 15px; text-align: justify; letter-spacing: 0.02em; word-break: break-word; font-family: Roboto !important; font-size: 17px !important;"><span style="margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 28px; letter-spacing: 0.02em; word-break: break-word;">Cụ thể đối với c&aacute;n bộ Đảng vi&ecirc;n, th&aacute;i độ ch&iacute;nh trị của họ l&agrave; phải c&oacute; tr&aacute;ch nhiệm trung thực k&ecirc; khai rằng bản th&acirc;n đ&atilde; tham gia tổ chức c&aacute;ch mạng (Từ ng&agrave;y - th&aacute;ng - năm n&agrave;o?). Trong qu&aacute; tr&igrave;nh hoạt động c&aacute;ch mạng th&igrave; l&agrave;m c&ocirc;ng t&aacute;c g&igrave;? Giữ vai tr&ograve; g&igrave;?&nbsp;</span></p>\n', 'Quy trình công nghệ là gì?', '<p>C&ugrave;ng t&igrave;m hiểu ?</p>\n\n<p><a href="http://khoahoc.timviec365.com">C&ugrave;ng t&igrave;m hiểu ?</a></p>\n'),
+(2, 'Kỹ năng quản trị', 'ky-nang-quan-tri', 'kynangquantri.svg', '', '', '', '', '', ''),
+(3, 'Tiếng Anh', 'tieng-anh', 'ngoaingu.svg', '', '', '', '', '', ''),
+(4, 'Phần mềm', 'phan-mem', 'phanmen.svg', '', '', '', '', '', ''),
+(5, 'Thiết kế đồ họa', 'thiet-ke-do-hoa', 'thietkedohoa.svg', '', '', '', '', '', ''),
+(6, 'Marketing', 'marketing', 'marketing.svg', '', '', '', '', '', ''),
+(7, 'Kinh doanh', 'kinh-doanh', 'kinhdoanh.svg', '', '', '', '', '', ''),
+(8, 'IT và lập trình', 'it-va-lap-trinh', 'itlaptrinh.svg', '', '', '', '', '', ''),
+(9, 'Hành chính Nhân sự', 'hanh-chinh-nhan-su', 'hanhchinhnhansu.svg', '', '', '', '', '', ''),
+(10, 'Tài chính', 'tai-chinh', 'taichinhketoan.svg', '', '', '', '', '', ''),
+(11, 'Kế toán', 'ke-toan', 'taichinhketoan.svg', '', '', '', '', '', ''),
+(12, 'Phát triển cá nhân', 'phat-trien-ca-nhan', 'phattriencanhan.svg', '', '', '', '', '', ''),
+(13, 'Đời sống', 'doi-song', 'doisong.svg', '', '', '', '', '', ''),
+(14, 'Kỹ năng con người', 'ky-nang-con-nguoi', 'kynangconnguoi.svg', '', '', '', '', '', ''),
+(15, 'Kỹ năng công việc', 'ky-nang-cong-viec', 'kynangcongviec.svg', '', '', '', '', '', ''),
+(16, 'Tin học văn phòng', 'tin-hoc-van-phong', 'itlaptrinh.svg', '', '', '', '', '', ''),
+(17, 'Tiếng Nhật', 'tieng-nhat', 'ngoaingu.svg', '', '', '', '', '', ''),
+(18, 'Tiếng Hàn', 'tieng-han', 'ngoaingu.svg', '', '', '', '', '', ''),
+(19, 'Tiếng Trung', 'tieng-trung', 'ngoaingu.svg', '', '', '', '', '', '');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`cate_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `cate_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
