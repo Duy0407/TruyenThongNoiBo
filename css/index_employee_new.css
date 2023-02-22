@@ -1,0 +1,155 @@
+.cdnhanvienc{
+    width: 100%;
+}
+.center_content{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.center_content_right, .center_content_left{
+    position: relative;
+    flex: 1;
+    max-width: 380px;
+}
+.center_content_middle{
+    width: 684px;
+    padding: 0 !important;
+}
+.sidebar_right{
+    width: calc(50% - 382px);
+    max-width: inherit;
+    right: unset;
+    top: unset;
+    max-height: calc(100% - 100px);
+}
+.ep_info{
+    position: fixed;
+    overflow-y: auto;
+    width: calc(50% - 382px);
+    max-width: inherit;
+    padding-left: 0;
+    max-height: calc(100% - 100px);
+    box-shadow: none;
+    height: 100%;
+}
+.event_upcoming{
+    box-shadow: none;
+}
+.ep_info_shortcuts{
+    box-shadow: none;
+}
+.ep_info::-webkit-scrollbar {
+    width: 0;
+}
+.ep_info > *{
+    padding-left: 20px;
+}
+
+/* story */
+.nv_story2 {
+    width: calc(100% - 167px);
+    float: right;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+.nv_story2::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.v_story{
+    position: relative;
+}
+
+/* gợi ý kết bạn, nhóm */
+.add_friend_detail{
+    overflow: auto;
+    flex-wrap: unset;
+    margin-right: 0;
+    gap: 20px;
+}
+.add_friend_detail::-webkit-scrollbar {
+    width: 0;
+}
+.add_friend_item{
+    min-width: 200px;
+    flex-basis: unset;
+    max-width: 200px;
+    width: 100%;
+}
+.btn_add_friend{
+    width: 75%;
+    display: inline;
+}
+.btn_add_friend_remove{
+    width: calc(25% - 10px);
+    display: inline;
+    font-size: 14px;
+}
+
+.contact_detail_img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.shortcuts_detail{
+    align-items: center;
+}
+.contact_detail_img_status{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    background: #CCCCCC;
+    border: 2px solid #FFFFFF;
+    right: -2px;
+    bottom: -2px;
+}
+.contact_detail_img_online{
+    background: #76B51B;
+}
+.ep_post_file{
+    position: relative;
+}
+.ep_post_more{
+    position: unset;
+}
+.ep_post_detail_item{
+    align-items: flex-start;
+}
+.ep_post_action1{
+    border: 0.5px solid #e5e5e5;
+}
+.ep_post_detail .container-binhchon .anh, .popup_post_new .container-binhchon .anh {
+    width: 100%;
+    margin-top: 10px;
+}
+.ep_post_action1_deatail .action_ico{
+    width: 24px;
+}
+
+
+@media (max-width: 1500px) {
+    .center_content{
+        gap: 20px;
+    }
+    .sidebar_right, .ep_info{
+        width: calc(50% - 362px);
+    }
+}
+
+@media (max-width: 1100px) {
+    .center_content_right, .center_content_left{
+        display: none;
+    }
+    .center_content_middle{
+        width: 100%
+    }
+}
+
+@media (max-width: 720px){
+    .center_content {
+        margin-top: 78px !important;
+    }
+}

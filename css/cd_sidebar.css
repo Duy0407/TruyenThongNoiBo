@@ -1,0 +1,27 @@
+.side-bar {
+    width: 280px;
+}
+
+@media(max-width: 1025px) {
+    .wapper .side-bar.side-bar-2 {
+        width: 92px;
+    }
+}
+
+@media(max-width: 976px) {
+    .wapper .side-bar.side-bar-2 {
+        width: 92px;
+    }
+    .side-bar-phai {
+        width: 212px !important;
+    }
+}
+
+@media(max-width: 720px) {
+    .wapper .side-bar.side-bar-2 {
+        width: 92px;
+    }
+    .side-bar-phai {
+        width: 100% !important;
+    }
+}

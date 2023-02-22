@@ -1,0 +1,113 @@
+#centr-quantri-trithuc {
+    padding-top: 100px;
+}
+
+a.hove1.hv1.hover-wiki:hover {
+    border-radius: 0;
+}
+
+#centr-quantri-trithuc .wiki-all:hover {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#centr-quantri-trithuc .wiki-all .hove {
+    top: 49px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.item-file {
+    position: relative;
+}
+
+.item-name-file {
+    color: #474747;
+    font-weight: 400;
+    max-width: 240px;
+    word-break: break-word;
+}
+
+.item-name-file-span {
+    color: #474747;
+    font-weight: 500;
+    max-width: 240px;
+    word-break: break-word;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file {
+    align-items: baseline;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+    color: #4C5BD4;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    word-break: break-word;
+    padding-right: 50px;
+}
+
+.input_file_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 13px;
+}
+
+.custom-name-file-input {
+    cursor: pointer;
+}
+
+.form_group .custom-file-input {
+    padding: 8.5px 35px;
+}
+
+.form_group .custom-file-input::before {
+    left: 13px;
+}
+
+.div_spin {
+    padding-left: 15px;
+    padding-top: 11px;
+    color: #4C5BD4;
+    padding-right: 19px;
+    word-break: break-word;
+    text-decoration: underline;
+    padding-bottom: 16px;
+}
+
+.input_file1 {
+    position: relative;
+}
+
+@media(max-width: 1200px) {
+    #centr-quantri-trithuc .wiki-all .hove {
+        top: 43px;
+    }
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file {
+        margin-right: 0;
+    }
+    .box_cha_model_tung_1 {}
+}
+
+@media(max-width: 976px) {
+    #centr-quantri-trithuc .wiki-all .hove {
+        top: 31px;
+    }
+}
+
+@media(max-width: 720px) {
+    #centr-quantri-trithuc {
+        padding-top: 20px;
+    }
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+        padding-right: 5px;
+    }
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        flex-basis: 100%;
+    }
+    #centr-quantri-trithuc .select-list-bok .v_list-book1 {
+        margin-right: 0;
+    }
+}

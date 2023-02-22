@@ -1,0 +1,3658 @@
+#centr-quantri-trithuc {
+    padding: 27px 31px 0px 28px;
+}
+
+#centr-quantri-trithuc .seach {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#centr-quantri-trithuc .seach .seach-book {
+    width: 63%;
+}
+
+#centr-quantri-trithuc .img-seach-book {
+    width: 100%;
+}
+
+/* sửa */
+#centr-quantri-trithuc .wiki-all {
+    width: 33%;
+    position: relative;
+    border-radius: 6px;
+    background: #4C5BD4;
+}
+/* #main-exchange .seach-question .wiki-all {
+    display: none;
+} */
+
+#nkt3 #centr-quantri-trithuc .wiki-all {
+    display: none;
+}
+
+#nkt3 #nkt2 .coments-count{
+margin-left: 12px;
+}
+#nkt3 .posts-mysl .inf0-you-all .emotion-coments{
+padding: 15px 0px 15px 31px;
+}
+#centr-quantri-trithuc .wiki-all .hove {
+    background: #4C5BD4;
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#centr-quantri-trithuc .wiki-all .hove a.hove1 {
+    display: flex;
+    padding: 14px 0px 14px 19px;
+    align-items: center;
+}
+
+#centr-quantri-trithuc .wiki-all .hove a.hove1 .tetx-hv {
+    padding-left: 7px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+#centr-quantri-trithuc .wiki-all:hover .hove {
+    display: block;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#centr-quantri-trithuc .wiki-all:hover #centr-quantri-trithuc .seach .wiki {
+    border-radius: 0px;
+}
+
+#centr-quantri-trithuc .seach .wiki.abcd {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#centr-quantri-trithuc .seach .wiki.abcd:hover {
+    background: #2E3994;
+}
+
+#centr-quantri-trithuc .hv1:hover {
+    background: #2E3994;
+}
+
+#centr-quantri-trithuc .hv2:hover {
+    background: #2E3994;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#quantri-trithuc #centr-quantri-trithuc .seach .seach-book > input {
+    width: 100%;
+    border-radius: 26px;
+    padding: 14px 62px 14px 12px;
+    outline: 0px;
+    border: 1px solid rgba(71, 71, 71, 0.5);
+    background: url('../img/seachbook.png') no-repeat;
+    background-position: 95%;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(71, 71, 71, 0.75);
+}
+
+#centr-quantri-trithuc .seach .wiki {
+    width: 100%;
+    background: #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+#centr-quantri-trithuc .img-item-wiki {
+    position: absolute;
+}
+
+#centr-quantri-trithuc .img-item-wiki > img {
+    width: 100%;
+}
+
+#centr-quantri-trithuc .text-wiki {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+
+#centr-quantri-trithuc .them-tai-lieu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 21px;
+}
+
+#centr-quantri-trithuc .them-tai-lieu .tai-lieu {
+    width: 22%;
+    display: flex;
+    padding: 11px 12px;
+    background: #FFFFFF;
+    border: 1px solid #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    justify-content: center;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+}
+
+#centr-quantri-trithuc .them-tai-lieu .tai-lieu .img-tai-lieu > img {
+    padding-right: 10px;
+}
+
+#centr-quantri-trithuc .them-tai-lieu .tai-lieu .add-tai-lieu {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4C5BD4;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book {
+    width: calc(100% / 4 - 20px);
+    margin-top: 22px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 3px rgb(0 0 0 / 10%);
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .book-img {
+    display: flex;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .book-img > img {
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book {
+    font-style: normal;
+    font-weight: normal;
+    background: #FFFFFF;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    padding: 11px 19px 0px 15px;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4C5BD4;
+    padding: 11px 0px 0px 12.54px;
+    text-decoration: underline;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+    padding: 11px 0px 21px 13px;
+}
+
+#centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 13px 0px 13px;
+}
+
+/* traodoicauhoi */
+#main-exchange .seach-question .img-readinglisa {
+    display: none;
+}
+
+#main-exchange {
+    margin: 27px 31px 0px 27px;
+}
+
+/* sua */
+
+#nkt2 .wiki {
+    position: relative;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#nkt2 .wiki:hover {
+    background: #2E3994;
+    border-radius: 9px 9px 0px 0px;
+}
+
+#nkt3 .wiki {
+    position: relative;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#nkt3 .wiki:hover {
+    background: #2E3994;
+    border-radius: 9px 9px 0px 0px;
+}
+
+/* ///////////// */
+
+
+/* sua */
+#main-exchange .seach-question {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-exchange .seach-question .go-seach-questin {
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+
+#main-exchange .seach-question .go-seach-questin .img-seach-question img {
+    position: absolute;
+    top: 18px;
+    right: 19px;
+}
+
+#main-exchange .seach-question .go-seach-questin input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19px;
+    outline: 0px;
+    padding-left: 14px;
+    border: 0;
+    padding-right: 50px
+}
+
+#main-exchange .seach-question .go-exchange {
+    width: 33%;
+    background: #4C5BD4;
+    display: flex;
+    border: 1px solid #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 16px 22px;
+    right: 31px;
+}
+
+#main-exchange .seach-question .go-exchange .img-exchange img {
+    width: 100%;
+}
+
+#main-exchange .seach-question .go-exchange .text-exchange {
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/* /// */
+#main-exchange .all-question {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+#main-exchange .all-question .mid-center {
+    width: 65%
+}
+
+#main-exchange .all-question .center-question {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 31px 22px 31px;
+}
+
+#main-exchange .all-question .center-question .qusetion-myself {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+#main-exchange .all-question .center-question .qusetion-myself .text-myself {
+    width: 91%;
+    margin-left: 16px;
+}
+
+#main-exchange .all-question .center-question .qusetion-myself .text-myself input {
+    width: 100%;
+    padding: 11px 18px;
+    background: rgba(71, 71, 71, 0.15);
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#main-exchange .all-question .center-question .select-feature {
+    display: flex;
+    height: 50%;
+    padding-top: 23px;
+    border-top: 1px solid rgba(71, 71, 71, 0.25);
+}
+
+#main-exchange .all-question .center-question .select-feature .upload-img {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#main-exchange .all-question .center-question .select-feature .upload-img .text-imgupl p {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+#main-exchange .all-question .center-question .select-feature .call-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+#main-exchange .all-question .center-question .select-feature .call-name p {
+    padding-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+#main-exchange .all-question .center-question .select-feature .upload {
+    width: 30%;
+}
+
+#main-exchange .all-question .center-question .select-feature .upload .go-upload {
+    text-align: end;
+}
+
+#main-exchange .all-question .center-question .select-feature .upload .go-upload button {
+    padding: 10px 42px;
+    background: #4C5BD4;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.posts-mysl {
+    width: 100%;
+    margin-top: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 21px 39px 22px 31px;
+}
+
+.posts-mysl .inf0-you-all {
+}
+
+.posts-mysl .inf0-you-all .in4-you {
+    display: flex;
+}
+
+.posts-mysl .inf0-you-all .in4-you .avt-y {
+    width: 10%;
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y {
+    flex-grow: 1;
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top {
+    display: flex;
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top3 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(71, 71, 71, 0.75);
+}
+
+.posts-mysl .inf0-you-all .in4-you .inf0-y .time-upl {
+    margin-top: 5.5px;
+}
+
+.posts-mysl .inf0-you-all .in4-you .item-option {
+    width: 4%;
+    position: relative;
+}
+
+/* sửa2 popup */
+.item-option .item-option-con {
+    position: absolute;
+    width: 280px;
+    right: -20px;
+    display: none;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop .sau3-lon {
+    position: relative;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop .sau3-lon img.imgsau3 {
+    width: 18px;
+    height: 5px;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop .sau3-lon .sau3-con {
+    position: absolute;
+    width: 280px;
+    right: -37px;
+    display: none;
+}
+
+.qt-them-tl .cd_container {
+    width: 560px;
+}
+
+.xoa-tai-lieu .cd_container {
+    width: 447px;
+}
+
+.qt-them-tl .cd_container .cd-modal-del .form_buttom .btn_huy, .cd-modal-del .form_buttom .btn_luu {
+    width: 135px;
+}
+
+.qt-them-tl .cd_container .cd-modal-del .form_buttom .btn_huy, .cd-modal-del .form_buttom .btn_huy {
+    width: 135px;
+}
+
+.chinh-sua-tttl .cd_container {
+    width: 560px;
+}
+
+.chinh-sua-tttl .form_buttom .btn_huy, .chinh-sua-tttl .form_buttom .btn_luu {
+    width: 200px;
+}
+
+.qt-them-tl .form_buttom .btn_huy, .qt-them-tl .form_buttom .btn_luu {
+}
+
+/* end sửa2 popup */
+.posts-mysl .posts-you {
+    margin: 16px;
+}
+
+.posts-mysl .posts-you a.tl {
+    display: none;
+}
+
+.posts-mysl .posts-you > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.posts-mysl .inf0-you-all .emotion-coments {
+    display: flex;
+    padding: 15px 32px;
+    justify-content: space-between;
+    border-top: 1px solid rgba(71, 71, 71, 0.25);
+    border-bottom: 1px solid rgba(71, 71, 71, 0.25);
+}
+
+.posts-mysl .inf0-you-all .emotion-coments .emotion {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.posts-mysl .inf0-you-all .emotion-coments .emotion > p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(71, 71, 71, 0.75);
+    margin-left: 3px;
+}
+
+.posts-mysl .inf0-you-all .emotion-coments .coments-count > p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(71, 71, 71, 0.75);
+}
+
+.posts-mysl .coment-all .see-question > p {
+    padding: 17px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top {
+    display: flex;
+    margin-top: 14px;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top > img {
+    margin-right: 19px;
+}
+
+.posts-mysl .coment-all .text-coments {
+    width: 95%;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl {
+    background: rgba(71, 71, 71, 0.15);
+    border-radius: 10px;
+    padding: 11.13px 16.28px 16.69px 16.69px;
+    margin-left: 13px;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop {
+    display: flex;
+    align-items: center;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-info {
+    flex-grow: 1;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-name {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pl-text p {
+    padding-top: 5px;
+    width: 90%;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-like {
+    display: flex;
+    padding-left: 65px;
+    width: 90%;
+    align-items: center;
+    margin-top: 11.77px;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-like p.text-tl {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #474747;
+}
+
+.posts-mysl .coment-all .pl-coments .pl-coments-like p.text-time {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(71, 71, 71, 0.75);
+}
+
+.posts-mysl .coment-all .reply-your {
+    display: flex;
+    margin-top: 17px;
+}
+
+.posts-mysl .coment-all .reply-your .reply-cmt {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    position: relative;
+}
+
+.avt-reply img {
+    margin-right: 19px;
+}
+
+.posts-mysl .coment-all .reply-your .reply-cmt input {
+    width: 100%;
+    height: 100%;
+    background: rgba(71, 71, 71, 0.15);
+    border-radius: 40px;
+    border: 0px;
+    padding-left: 22px;
+}
+
+.posts-mysl .coment-all .reply-your .reply-cmt img.stitem {
+    position: absolute;
+    right: 67px;
+}
+
+.posts-mysl .coment-all .reply-your .reply-cmt img.avtitem {
+    position: absolute;
+    right: 24px;
+}
+
+#main-exchange .all-question .right-question {
+    width: 33%;
+    right: 31px;
+    height: auto;
+}
+
+#main-exchange .all-question .right-question .list-name {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 23px;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-top {
+    border-bottom: 1px solid rgba(71, 71, 71, 0.75);
+    padding: 14px 0px 16px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-boost .table1 {
+    margin: 0px 20px 24px 22px;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-boost .table1 table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr th {
+    padding: 16px 0px;
+}
+
+#main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr td {
+    padding: 17px 0px;
+    border-top: 1px solid rgba(71, 71, 71, 0.25);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    border-spacing: 0px;
+}
+
+#nkt2 .opstion {
+    display: none;
+}
+
+#nkt2 .dangnhap {
+    display: none;
+}
+
+#nkt3 .opstion {
+    display: none;
+}
+
+#nkt3 .dangnhap {
+    display: none;
+}
+
+/* chuyen trang */
+#nkt2 .wiki-all {
+    width: 33%;
+    position: relative;
+    background: #4C5BD4;
+    border-radius: 6px;
+}
+
+#nkt2 .hove {
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    position: absolute;
+}
+
+#nkt2 .text-wiki {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+#nkt2 .tetx-hv {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+#nkt2 .hv1 {
+    display: flex;
+    padding: 14px 0px 14px 19px;
+    text-align: center;
+    background: #4C5BD4;
+}
+
+#nkt2 .hv2 {
+    display: flex;
+    padding: 14px 0px 14px 19px;
+    text-align: center;
+    background: #4C5BD4;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* #nkt2 #main-exchange .seach-question .wiki-all {
+    display: block;
+}
+ */
+#nkt2 .hv1:hover {
+    background: #2E3994;
+}
+
+/* huongdanpc */
+#header-hd .nav-hd {
+    background: #4C5BD4;
+    width: 100%;
+    padding: 13px 42px 13px 46px;
+    display: flex;
+    align-items: center;
+}
+
+#header-hd .nav-hd .nav-hd-logo {
+    width: 50%;
+}
+
+#header-hd .nav-hd .nav-hd-menu {
+    width: 50%;
+}
+
+#header-hd .nav-hd .nav-hd-menu > ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-hd .nav-hd .nav-hd-menu > li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-hd .nav-hd .nav-hd-menu li.dk {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 9px 28px;
+}
+
+#header-hd .nav-hd .nav-hd-menu a.dka {
+    color: #4C5BD4;
+}
+
+#header-hd .nav-hd .nav-hd-menu ul li:nth-child(-n+4) {
+    margin-right: 33px
+}
+
+#header-hd .nav-hd .nav-hd-menu ul li a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#header-hd .hd-img {
+    background: url('../img/hd_img_hd.png') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 126px 44px 133px 44px;
+}
+
+#header-hd .hd-img .hd-img-left {
+    width: 50%;
+    margin-right: 64px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#header-hd .hd-img .hd-img-left .hd-img-logo {
+    margin-top: 42px;
+    display: flex;
+}
+
+#header-hd .hd-img .hd-img-left .hd-img-logo .img-logo-lf .hd_logo_qr {
+    width: 100%;
+}
+
+#header-hd .hd-img img.hd_chplay_hd {
+    width: 100%;
+}
+
+#header-hd .hd-img .img-logo-rt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 34px;
+}
+
+#header-hd .hd-img img.hd_app-store {
+    margin-top: 22px;
+    width: 100%;
+}
+
+#header-hd .hd-img .hd-img-right .hd_vide_hd {
+    width: 100%;
+    height: 100%;
+}
+
+#header-hd .hd-img .hd-img-them {
+    display: none;
+}
+
+#header-hd .hd-img .hd-img-them2 {
+    display: flex;
+}
+
+#huong-dan-all #main-hd-con {
+    padding: 54px 166px;
+}
+
+#huong-dan-all #main-hd-con .hd-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#huong-dan-all #main-hd-con .hd-all .xem-hd1 {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 28.5%;
+    padding: 29px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+}
+
+#huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-qlc {
+    padding-top: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #474747;
+}
+
+#huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-nd {
+    padding-top: 44px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+#huong-dan-all #main-hd-con .hd-all .xem-hd1 .xem-hd {
+    margin-top: 42px;
+    background: #4C5BD4;
+    border-radius: 50px;
+}
+
+#huong-dan-all #main-hd-con .hd-all .xem-hd1 p.text-hd {
+    padding: 10px 39px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#huong-dan-all #main-hd-con p.hd_phanmen {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #4C5BD4;
+}
+
+#huong-dan-all #main-hd-con p.hd-dldx {
+    padding-top: 76px;
+}
+
+/* 267 */
+.box_cha_model_tung_1 {
+    position: relative;
+    margin-top: -4px;
+}
+
+.box_cha_model_tung_1 .model_tung_1 {
+    width: 280px;
+    z-index: 0;
+    position: absolute;
+    top: 27px;
+    right: 0px;
+    display: none;
+}
+
+/* end267 */
+
+/* su kien nhan vien */
+.sukien-nv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sukien-nv .sukien-nv-r {
+
+    width: 100%;
+}
+
+.sukien-nv .sukien-nv-r .timkiem-sk {
+    width: 100%;
+    position: relative;
+}
+
+.sukien-nv .sukien-nv-r .timkiem-sk .ip-tk-sknv {
+    width: 100%;
+    padding: 17px 14px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    border: 0px;
+}
+
+.sukien-nv .sukien-nv-r .timkiem-sk .item-tk-sk {
+    position: absolute;
+    right: 16px;
+    top: 17px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all {
+    margin-top: 21px;
+
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .sk-noi-bo {
+    width: 48.5%;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 27px 55px;
+    align-items: center;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .sk-doi-ngoai {
+    width: 48.5%;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 27px 55px;
+    align-items: center;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .nb-dn {
+    margin-left: 16px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .nb-dn-so {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #4C5BD4;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .nb-dn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk {
+    margin-top: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk .sk-sdr {
+    padding: 16px 17px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #474747;
+    border-bottom: 1px solid #666666;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk th {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #474747;
+    padding: 16px 0px 16px 0px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td:nth-child(3) {
+    width: 41%;
+    text-align: center;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td > p {
+    padding-top: 2px;
+
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk p.text-time {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk p.text-gd {
+    color: #4C5BD4;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk table.tb-ndsk {
+    padding: 16px 17px;
+}
+
+/* // */
+.sukien-nv .sukien-nv-l {
+    width: 100%;
+}
+
+.sukien-nv .sukien-nv-l .su-kien {
+    background: #4C5BD4;
+    display: flex;
+    padding: 14px 125px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: 1px solid #4C5BD4;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.sukien-nv .sukien-nv-l .su-kien .skkk {
+    padding-left: 12px;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu {
+    margin-top: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .skgl {
+    padding: 8px 0px 17px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+    border-bottom: 1px solid #666666;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .thongtin-skgl {
+    padding: 0px 25px 71px 12px;
+    font-weight: 500;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .thongtin-skgl-chung {
+    padding-top: 16px;
+    
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .tvtg {
+    display: flex;
+    flex-direction: column;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .pchung {
+    text-indent: 5px;
+    font-weight: normal;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .item-sk-tvtg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .ds-sk {
+    padding: 5px 0px 0px 22px;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .tham-gia {
+    padding: 10px 38px;
+    background: #4C5BD4;
+    border-radius: 50px;
+}
+
+.sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .xem-chi-tiet {
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border: 1px solid #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 27px;
+}
+
+
+
+
+/* 22222222222222222 */
+.sukien-nb2 .sknb2 {
+    padding: 13px 74px 13px 18px;
+    background: #4C5BD4;
+    display: flex;
+    align-items: center;
+}
+
+.sk22 .sukien-nb2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sk22 .sukien-nv-r .vung-sk-all {
+    margin-top: 0px;
+}
+
+.sk22 .sukien-nv-r .vung-sk-all .noidung-sk {
+    margin-top: 0px;
+}
+
+.sk22 .sukien-nv-r .timkiem-sk {
+    margin-top: 1px;
+    width: 69%;
+    margin-left: 28px;
+}
+
+.sk22 .sukien-nb2 .imgsk23 {
+    margin-right: 18px;
+}
+
+.sk22 .sukien-nb2 .ptetxsk23 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.sk22 .sukien-nv-r .timkiem-sk .ip-tk-sknv {
+    padding: 8px 20px;
+}
+
+.sk22 .sukien-nv-r .timkiem-sk .item-tk-sk {
+    top: 5px;
+    right: 21px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td:nth-child(3) {
+    width: 48%;
+}
+
+.sk22 .sukien-nv-r .vung-sk-all .sknb-kt {
+    margin-top: 22px;
+}
+
+.sukien-nv .sukien-nv-r .vung-sk-all .sknb-kt p.text-gd {
+    color: #474747;
+}
+
+/* popup su kien nhan11 */
+.sukien-nv .hvshow {
+    position: absolute;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 29px 14px 17px;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sukien-nv .tetx-show {
+    padding-left: 11px
+}
+
+/* pupup7_xem chinh sau chi tiet san pham */
+.form_group .thanh-vien-all {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form_group .img-thanhvien {
+    width: 50%;
+    display: flex;
+    margin-top: 19px;
+}
+
+.form_group .tetx-thanh-vien {
+    padding-left: 11px;
+}
+
+.form_group p.text-tv1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #474747;
+}
+
+.form_group p.text-tv2 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF3333;
+}
+
+.form_group p.text-tv3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.form_group .img-cauhoi-sk {
+    display: flex;
+    float: left;
+    margin-top: 16px;
+}
+
+.form_group .text-cauhoi-sk-tren {
+    background: #CCCCCC;
+    opacity: 0.5;
+    border-radius: 3px;
+    padding: 5px 0px 5px 15px;
+    width: 133%;
+}
+
+.form_group .text-cauhoi-sk p.text-ch1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #474747;
+}
+
+.form_group .text-cauhoi-sk span.text2 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF3333;
+}
+
+.form_group .text-cauhoi-sk p.text-ch3 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #474747;
+}
+
+.form_group .text-cauhoi-sk p.text-ch4 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #474747;
+}
+
+/* end poup7 chinh sua tiet san pham */
+
+/* puop8 xem chi tiet san pham */
+
+.form_group.xemnoidung-all {
+    display: flex;
+}
+.form_group label.name.xemnoidung {
+    width: 25%;
+}
+
+.form_group .text-xemnoidung {
+    margin-top: 13.5px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #474747;
+}
+
+.form_group span.spanvt {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #474747;
+}
+
+/* end pupop8 xem chi tiet san pham */
+
+/* popup 9 xem chi tiet su kien doi ngoai */
+.form_group .tacgia {
+    display: flex;
+    float: left;
+    margin-top: 14px;
+    align-items: center;
+}
+
+.form_group .text-tacgia {
+    margin-left: 10px;
+}
+
+.form_group .text-tacgia2 {
+    padding-top: 4px
+}
+
+.form_group {
+    clear: both;
+}
+
+.form_group table.table-dn {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.form_group .table-dn tr td {
+    border-top: 1px solid rgba(71, 71, 71, 0.25);
+
+    padding: 10px 0px;
+
+}
+
+.form_group .table-dn tr th {
+    padding: 7px 0px 7px 5px;
+}
+
+/* end popup 9 xem chi tiet su kien doi ngoai */
+/* pupop 10 */
+.form_group input.ttip1 {
+    margin-top: 10px;
+}
+
+.form_group td.themkhach-moi {
+    text-align: left;
+
+}
+
+.form_group td.themkhach-moi > a {
+    margin-left: 13px;
+}
+
+.form_group img.xsukiendoingoai {
+    margin-right: 10px;
+}
+
+.form_group .hai-img {
+    position: relative;
+}
+
+.form_group img.xsukiendn {
+    position: absolute;
+    right: -8px;
+    display: none;
+}
+
+
+.vd9_xemchitiet_dn .name_header{
+position: relative;
+}
+.vd9_xemchitiet_dn img.xemchitiet-dn{
+ position: absolute;
+ right: 68px
+}
+
+
+.nkttung1{
+    background: blue;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    padding: 27px;
+    background: #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.wiki-all.wk1{
+    display: none;
+}
+/* #nkt2 .wiki-all{
+    display: none;
+} */
+
+/* #nkt2{
+    display: none;
+} */
+/* #nkt3 #nkt2{
+    display: none;
+}
+ */
+#nkt2 .nkttung1:hover .wiki-all .wk1{
+    display: block;
+}
+.wiki-all.wk2{
+    display: none;
+}
+
+.nkttung2{
+    background: blue;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    padding: 27px;
+    background: #4C5BD4;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+/* enoupup 10 */
+
+
+/* end popup su kien nhan11 */
+
+
+/* end su kien nhan vien */
+
+
+
+
+
+#centr-quantri-trithuc .img-seach-book >input{
+    display: none;
+}
+
+
+
+
+
+
+@media screen  and (max-width: 1366px) {
+
+
+    #centr-quantri-trithuc {
+        padding: 25px 28px 0px 25px;
+    }
+
+    #centr-quantri-trithuc .seach .seach-book {
+        width: 65%;
+    }
+
+    #centr-quantri-trithuc .seach .wiki {
+        width: 100%;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu {
+        margin-top: 20px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .img-tai-lieu > img {
+        padding-right: 8px;
+        width: 100%;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        margin-top: 20px;
+        width: calc(100% / 4 - 23px);
+    }
+
+    .select-list-bok .list-book1 .book .text-book .item-file {
+        padding-right: 17px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+        padding: 10px 0px 19px 13px;
+    }
+
+    /* trao_doi_dat_cau_hoi */
+    #main-exchange {
+        margin: 25px 28px 0px 25px;
+    }
+
+    #main-exchange .all-question {
+        margin-top: 14px;
+    }
+
+    #main-exchange .seach-question {
+        height: 50px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin .img-seach-question img {
+        top: 14px;
+    }
+
+    #main-exchange .all-question .center-question {
+        padding: 18px 28px 20px 28px;
+    }
+
+    .posts-mysl {
+        padding: 20px 27px 20px 20px;
+        margin-top: 20px;
+    }
+
+    .posts-mysl .inf0-you-all .emotion-coments {
+        padding: 12px 37px;
+    }
+
+    .posts-mysl .posts-you {
+        padding: 14px 0px 14px 0px;
+        margin: 0px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top {
+        margin-top: 0px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top > img {
+        margin-right: 12px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl {
+        padding: 10px 16.28px 15px 15px;
+        margin-left:8.3px;
+    }
+
+    /* .avt-reply img {
+        margin-right: ;
+    } */
+
+    .posts-mysl .coment-all .reply-your .avt-reply img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name {
+        width: 33%;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload {
+        width: 23%;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img {
+        width: 39%;
+        flex-grow: 0;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name p {
+        font-weight: 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload .go-upload button {
+        padding: 8px 36px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .imgupl img {
+        width: 28px;
+        height: 24.5px;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        padding: 14px 19px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name .img-callname img {
+        width: 26px;
+        height: 26px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .avatar-myself img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .posts-mysl .inf0-you-all .in4-you .avt-y img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt img.avtitem {
+        width: 24px;
+        height: 21px;
+        right: 16px;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt img.stitem {
+        width: 24px;
+        height: 24px;
+        right: 50px;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt input {
+        min-height: 40px;
+    }
+
+    #main-exchange .all-question .right-question .list-name {
+        margin-top: 20px;
+    }
+
+    #header-hd .nav-hd {
+        padding: 12px 38px;
+    }
+
+    #header-hd .nav-hd .nav-hd-menu ul li:nth-child(-n+4) {
+        margin-right: 26px;
+    }
+
+    #header-hd .hd-img {
+        padding: 114px 40px 123px 38px;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo {
+        margin-top: 37px;
+    }
+
+    #header-hd .hd-img .hd-img-left {
+        padding-right: 57px;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo .img-logo-lf .hd_logo_qr {
+        width: 190px;
+        height: 188px;
+    }
+
+    #header-hd .hd-img img.hd_chplay_hd {
+        width: 190px;
+        height: 56px;
+    }
+
+    #header-hd .hd-img img.hd_app-store {
+        width: 190px;
+        height: 56px;
+    }
+
+    #huong-dan-all #main-hd-con {
+        padding: 50px 148px;
+    }
+
+    /* su kiien nhan vien1 */
+    .sukien-nv .sukien-nv-r .vung-sk-all {
+        margin-top: 19px;
+    }
+
+    .sukien-nv img.img-sk-nb {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .sk-noi-bo {
+        padding: 24px 50px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk {
+        margin-top: 23px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk table.tb-ndsk {
+        padding: 15px 16px;
+    }
+
+    .sukien-nv img.imgsk_tvtg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sukien-nv img.img_xoask {
+        width: 18px;
+        height: 19px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .tham-gia {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding: 8px 29px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .xem-chi-tiet {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 8px 19px;
+        color: #4C5BD4;
+        margin-left: 23px;
+    }
+
+    /* end su kien nhan vien1 */
+    /* 22 */
+    /* end222 */
+    .sk22 .sukien-nv-r .vung-sk-all .noidung-sk {
+        margin-top: 0px;
+    }
+
+    .sk22 .sukien-nv-r .vung-sk-all {
+        margin-top: 0px;
+    }
+
+    .sk22 .sukien-nv-r .timkiem-sk {
+        width: 62%;
+        margin-left: 28px;
+    }
+
+
+}
+
+
+@media screen  and (max-width: 1024px) {
+    #centr-quantri-trithuc {
+        padding: 22px 22px 0px 19.9px;
+    }
+
+    #quantri-trithuc #centr-quantri-trithuc .seach .seach-book > input {
+        height: 43px;
+        padding: 13px 12px;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    #centr-quantri-trithuc .seach .wiki {
+        height: 43px;
+    }
+
+    #centr-quantri-trithuc .img-item-wiki {
+        width: 19px;
+        height: 20px;
+    }
+
+    #centr-quantri-trithuc .text-wiki {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 24px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu {
+        margin-top: 15px;
+        height: 44px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        margin-top: 14px;
+        width: calc(100% / 4 - 22px);
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .img-tai-lieu > img {
+        height: 17px;
+        padding-right: 3px;
+        width: 100%;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file {
+        margin-right:: 15px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file > img {
+        width: 18px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+        padding: 10px 0px 16px 14px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .add-tai-lieu {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* them */
+    #nkt2 .hv1 .img-traodoi > img {
+        width: 23px;
+        height: 23px;
+
+    }
+
+    /*  trao_doi_dat_cau_hoi */
+    #main-exchange {
+        margin: 22px 21px 0px 19px;
+    }
+
+    #main-exchange .seach-question {
+        height: 43px;
+    }
+
+    #main-exchange .all-question {
+        margin-top: 12px;
+    }
+
+    #main-exchange .all-question .center-question {
+        padding: 15px 24px 15px 24px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .avatar-myself > img {
+        width: 34px;
+        height: 34px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself > input {
+        padding: 7px 14px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin > input {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        padding: 11px 17px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .imgupl > img {
+        width: 24px;
+        height: 21px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .text-imgupl > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name .img-callname > img {
+        width: 22px;
+        height: 22px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload .go-upload > button {
+        padding: 6px 25px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    #main-exchange .posts-mysl {
+        margin-top: 17px;
+        padding: 21px 23px 17px 24px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .avt-y > img {
+        width: 34px;
+        height: 34px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top2 {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: normal;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top3 {
+        line-height: 15px;
+        font-size: 13px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .time-upl > p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .item-option > img {
+        width: 18px;
+        height: 5px;
+    }
+
+    #main-exchange .posts-mysl .posts-you > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments {
+        padding: 10px 40px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .emotion > img {
+        width: 17px;
+        height: 17px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .coments-count {
+        width: 21%;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .emotion > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .coments-count > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .see-question > p {
+        padding: 11px 0px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .sauvang > img {
+        width: 34px;
+        height: 34px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-name {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-info {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top > img {
+        width: 18px;
+        height: 4px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pl-text > p {
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like {
+        margin-top: 9px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like .likecoment > img {
+        width: 17px;
+        height: 17px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like p.text-tl {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like p.text-time {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your {
+        margin-top: 14px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .avt-reply > img {
+        width: 34px;
+        height: 34px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt {
+        height: 34px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt img.stitem {
+        width: 20px;
+        height: 20px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt img.avtitem {
+        width: 20px;
+        height: 18px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin .img-seach-question > img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #main-exchange .seach-question .go-exchange .img-exchange > img {
+        width: 19px;
+        height: 19px;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        padding: 12px 17px;
+    }
+
+    #main-exchange .seach-question .go-exchange .text-exchange > p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .right-question .list-name {
+        margin-top: 17px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-top {
+        padding: 11px 0px 13px 17px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-top > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 {
+        margin: 0px 14px 19px 17px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr td {
+        padding: 13px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    /*huong dan*/
+    #header-hd .nav-hd {
+        background: url('../img/nav_hd1024.png') no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 60px;
+    }
+
+    #header-hd .nav-hd .nav-hd-logo {
+        display: none;
+    }
+
+    #header-hd .nav-hd .nav-hd-menu {
+        display: none;
+    }
+
+    #huong-dan-all #header-hd .hd-img-left .hd-img-ttle {
+        display: none;
+    }
+
+    #header-hd .hd-img {
+        display: block;
+        padding: 50px 42px 76px 41px;
+    }
+
+    #header-hd .hd-img .hd-img-them2 {
+        display: flex;
+    }
+
+    #header-hd .hd-img .hd-img-them {
+        display: block;
+    }
+
+    #header-hd .hd-img .hd-img-them .hd-img-ttle2 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+
+    #header-hd .hd-img .hd-img-left {
+        padding-right: 0px;
+    }
+
+    #huong-dan-all #main-hd-con {
+        padding: 40px 41px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 img.hd_caidat {
+        width: 35px;
+        height: 35px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 {
+        width: 32%;
+        padding: 27px 28px 30px 29px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-qlc {
+        padding-top: 20px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-nd {
+        padding-top: 38px;
+    }
+
+
+    /* su kien nhan vien 11 */
+    .sukien-nv .sukien-nv-r .timkiem-sk .ip-tk-sknv {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 13px 11px;
+    }
+
+    .sukien-nv img.img-tk-su {
+        width: 15px;
+        height: 16px;
+    }
+
+    .sukien-nv .sukien-nv-r .timkiem-sk .item-tk-sk {
+        top: 14px;
+        right: 13px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all {
+        margin-top: 16px;
+    }
+
+    .sukien-nv img.img-sk-nb {
+        width: 43px;
+        height: 43px;
+    }
+
+    .sukien-nv img.img-sk-nb {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .sk-noi-bo {
+        padding: 21px 43px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .sk-doi-ngoai {
+        padding: 21px 43px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .nb-dn-so {
+        font-size: 22px 26px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .vung-sk .nb-dn-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .sukien-nv p.text-sk-sdr {
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 500;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk th {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .sukien-nv img.img_xoask {
+        width: 13px;
+        height: 13px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk .sk-sdr {
+        padding: 11px 13px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk table.tb-ndsk tr {
+        padding: 12px 11px;
+    }
+
+    .sukien-nv .sukien-nv-r .vung-sk-all .noidung-sk td {
+        padding: 11px 0px 11px 0px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .skgl {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .thongtin-skgl-chung {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .thongtin-skgl {
+        padding: 0px 9px 54px 9px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .thongtin-skgl-chung {
+        padding-top: 12px;
+    }
+
+    .sukien-nv img.imgsk_tvtg {
+        width: 34px;
+        height: 34px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .tham-gia {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 7px 25px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem {
+        margin-top: 21px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .tgsk-xem .xem-chi-tiet {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 7px 17px;
+    }
+
+    .sukien-nv .sukien-nv-l .sk-giao-luu .ds-sk {
+        padding: 5px 0px 0px 15px;
+    }
+
+
+    .nkttung1{
+        padding: 23px;
+    }
+    .nkttung2{
+        padding: 23px;
+    }
+
+}
+
+@media screen  and (max-width: 768px) {
+
+    #centr-quantri-trithuc {
+        padding: 15px 12px 0px 15px;
+    }
+
+    #centr-quantri-trithuc .seach .seach-book {
+        width: 63%;
+    }
+
+    #quantri-trithuc #centr-quantri-trithuc .seach .seach-book > input {
+        height: 32px;
+        font-size: 16px;
+        line-height: 19px;
+        background: url('../img/seachbook2.png') no-repeat;
+        background-position: 95%;
+    }
+
+    #centr-quantri-trithuc .seach .wiki {
+        height: 32px;
+        width: 100%;
+    }
+
+    #nkt2 .img-item-wiki > img {
+        width: 19px;
+        height: 20px;
+    }
+
+    #nkt2 .text-wiki {
+        padding-left: 7px;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu {
+        height: 32px;
+        margin-top: 14px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .img-tai-lieu > img {
+        width: 12px;
+        height: 13px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .add-tai-lieu {
+        font-size: 12px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        width: calc(100% / 3 - 15px);
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > p {
+
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .book-file {
+        padding: 11px 0px 21px 15px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > a {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    /* them */
+    #centr-quantri-trithuc .img-traodoi > img {
+        width: 20px;
+        height: 19px;
+    }
+
+    #centr-quantri-trithuc .img-cauhoi > img {
+        width: 19px;
+        height: 20px;
+    }
+
+    #centr-quantri-trithuc .wiki-all .hove a.hove1 .tetx-hv {
+        padding-left: 8px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    #centr-quantri-trithuc .wiki-all .hove a.hove1 {
+        padding: 7px 0px 7px 19px;
+    }
+
+    #nkt2 .hv1 .img-traodoi > img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #nkt2 .tetx-hv {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 7px;
+    }
+
+    #nkt2 .hv2 .img-cauhoi > img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #nkt2 .hv1 {
+        padding: 7px 0px 7px 19px;
+    }
+
+    #nkt2 .hv2 {
+        padding: 7px 0px 7px 19px;
+    }
+
+    /* endthem */
+    /* trao_doi_dat_cau_hoi */
+    #main-exchange .all-question .center-question .select-feature .upload {
+        display: none;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .dangnhap {
+        display: block;
+        background: #4C5BD4;
+        width: 26%;
+        border-radius: 50px;
+        height: 25px;
+        line-height: 16px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself {
+        padding-bottom: 5px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature {
+        padding-top: 11px;
+    }
+
+    #main-exchange .all-question .center-question .opstion {
+        display: flex;
+        align-items: center;
+        width: 44%;
+        justify-content: center;
+        margin-top: 6px;
+        /* padding-left: 14px; */
+    }
+
+    #main-exchange .seach-question {
+        height: 32px;
+    }
+
+    #main-exchange {
+        margin: 15px 14px 0px 14px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin input {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    #main-exchange .all-question {
+        margin-top: 15px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin .img-seach-question img {
+        width: 12px;
+        height: 12px;
+        top: 10px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top2 {
+        font-size: 12px
+    }
+
+    #main-exchange .all-question .center-question {
+        padding: 11px 28px 16px 17px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself input {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 2px 10px;
+        align-items: center;
+        color: #474747;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself {
+        margin-right: 8px;
+        flex-wrap: 1;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .dangnhap p.dn {
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 25px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .imgupl img {
+        width: 15px;
+        height: 14px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name .img-callname img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #main-exchange .all-question .center-question .opstion .text-upload {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #4C5BD4;
+        align-items: center;
+        padding-left: 8px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img {
+        width: 50%;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name {
+        width: 50%;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .avt-y > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #main-exchange .posts-mysl {
+        margin-top: 15px;
+        padding: 15px 13px 20px 20px;
+    }
+
+    #main-exchange .posts-mysl .posts-you > p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    #main-exchange .posts-mysl .posts-you a.tl {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #4C5BD4;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .emotion img {
+        width: 13px;
+        height: 13px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments {
+        padding: 10px 2px 10px 19px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .coments-count {
+        width: 50%;
+        text-align: end;
+    }
+
+    #main-exchange .seach-question .go-exchange .img-exchange img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        padding: 8px 20px;
+    }
+
+    #main-exchange .all-question .right-question .list-name {
+        margin-top: 0px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-top {
+        padding: 9px 0px 8px 10px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr th {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 10px 0px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr td {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y {
+        padding-left: 10px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr td {
+        padding: 8px 0px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name > p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop .sau3-lon img.imgsau3 {
+        display: none;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop img.sau3 {
+        display: none;
+    }
+
+    #header-hd .hd-img {
+        padding: 19px 133px 40px 133px;
+    }
+
+    #header-hd .hd-img .hd-img-them {
+        display: none;
+    }
+
+    #huong-dan-all #header-hd .hd-img-left .hd-img-ttle {
+        display: block;
+    }
+
+    #header-hd .hd-img .hd-img-them2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo .img-logo-lf .hd_logo_qr {
+        width: 125px;
+        height: 125px;
+    }
+
+    #header-hd .hd-img img.hd_chplay_hd {
+        width: 125px;
+        height: 36px;
+    }
+
+    #header-hd .hd-img img.hd_app-store {
+        width: 125px;
+        height: 36px;
+    }
+
+    #header-hd .hd-img .hd-img-them2 .hd-img-right {
+        width: 350px;
+        height: 188px;
+    }
+
+    #header-hd .hd-img .hd-img-left {
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #huong-dan-all #main-hd-con {
+        padding: 30px 25px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 {
+        margin-top: 30px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-qlc {
+        padding-top: 14px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 p.hd-nd {
+        padding-top: 13px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 {
+        padding: 27px 16px 26px 15px;
+        width: 30%;
+
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 .xem-hd {
+        margin-top: 0px;
+    }
+
+    #huong-dan-all #main-hd-con p.hd-dldx {
+        padding-top: 32px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 p.text-hd {
+        padding: 8px 30px;
+    }
+
+
+.nkttung2{
+    padding: 11px 0px 4px 13px;
+}
+#nkt2 img.imghv1{
+width: 15px;
+height: 14px;
+}
+.nkttung1{
+  padding: 11px 0px 4px 13px;
+}
+
+}
+
+@media screen  and (max-width: 414px) {
+
+    .nkttung1{
+        width: 80%;
+    }
+    .nkttung2{
+        width: 80%;
+    }
+    #centr-quantri-trithuc {
+        padding: 16px 31px 0px 28px;
+    }
+
+    #centr-quantri-trithuc .seach {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    #centr-quantri-trithuc .img-seach-book {
+        width: 100%;
+        width: 100%;
+        border-radius: 26px;
+        padding: 6px 30px 6px 12px;
+        outline: 0px;
+        border: 1px solid rgba(71, 71, 71, 0.5);
+        background: url('../img/seachbook.png') no-repeat;
+        background-position: 95%;
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        color: rgba(71, 71, 71, 0.75);
+        margin-top: 11px;
+        background-size: 9%;
+
+    }
+    #centr-quantri-trithuc .img-seach-book >input{
+        display: block;
+        border: 0px;
+        padding-right: 10px ;
+        width: 100%;
+    }
+
+    #centr-quantri-trithuc .seach .wiki {
+        width: 30%;
+        background: #4C5BD4;
+        box-sizing: border-box;
+        border-radius: 6px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 14px 20px;
+    }
+
+    #centr-quantri-trithuc .img-item-wiki {
+        position: absolute;
+    }
+
+    #centr-quantri-trithuc.img-item-wiki img {
+        width: 100%;
+    }
+
+    #centr-quantri-trithuc.text-wiki {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        padding-left: 30px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 9px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu {
+        width: 22%;
+        display: flex;
+        padding: 11px 12px;
+        background: #FFFFFF;
+        border: 1px solid #4C5BD4;
+        box-sizing: border-box;
+        border-radius: 50px;
+        justify-content: center;
+        line-height: 19px;
+        align-items: center;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .img-tai-lieu > img {
+        width: 15px;
+        height: 17px;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu .add-tai-lieu {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #4C5BD4;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        width: calc(100% / 4 - 20px);
+        margin-top: 22px;
+        border-radius: 6px;
+        box-shadow: 0px 2px 5px 3px rgb(0 0 0 / 10%);
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .book-img {
+        display: flex;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .book-img > img {
+        width: 100%;
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book {
+        font-style: normal;
+        font-weight: normal;
+        background: #FFFFFF;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book > a {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4C5BD4;
+        padding: 11px 0px 0px 12.54px;
+        text-decoration: underline;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book .text-book .item-file {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 19px;
+    }
+
+    #quantri-trithuc #centr-quantri-trithuc .seach .seach-book > input {
+        display: none;
+    }
+
+    #centr-quantri-trithuc .seach .wiki {
+        width: 100%;
+    }
+
+    .img-item-wiki {
+        width: 19px;
+        height: 20px;
+    }
+
+    .text-wiki {
+        padding-left: 25px
+    }
+
+    #centr-quantri-trithuc .seach .seach-book {
+        width: 60%;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu {
+        position: relative;
+    }
+
+    #centr-quantri-trithuc .them-tai-lieu .tai-lieu {
+        padding: 7px 12px;
+        width: 38%;
+        position: absolute;
+        top: -40px;
+        height: 31px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok {
+        margin-top: -50px;
+    }
+
+    #centr-quantri-trithuc .select-list-bok .list-book1 .book {
+        width: calc(100% / 2 - 7px);
+    }
+
+    #centr-quantri-trithuc .wiki-all {
+        width: 100%;
+    }
+
+    /* trao_doi_dat_cau_hoi */
+    #main-exchange {
+        margin: 27px 31px 0px 27px;
+    }
+
+    #main-exchange .seach-question {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-exchange .seach-question .go-seach-questin {
+        width: 65%;
+        height: 100%;
+        position: relative;
+    }
+
+    #main-exchange .seach-question .go-seach-questin .img-seach-question > img {
+        position: absolute;
+        top: 18px;
+        right: 19px;
+        top: 18px;
+        width: 15px;
+        height: 16px
+
+    }
+
+    #main-exchange .seach-question .go-seach-questin > input {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+        font-style: italic;
+        font-size: 16px;
+        line-height: 19px;
+        outline: 0px;
+        padding-left: 14px;
+        border: 0;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        width: 33%;
+        background: #4C5BD4;
+        display: flex;
+        border: 1px solid #4C5BD4;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 16px 22px;
+        right: 31px;
+    }
+
+    #main-exchange .seach-question .go-exchange .img-exchange > img {
+        width: 100%;
+    }
+
+    #main-exchange .seach-question .go-exchange .text-exchange {
+        padding-left: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    #main-exchange .all-question {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    #main-exchange .all-question .mid-center {
+        width: 65%
+    }
+
+    #main-exchange .all-question .center-question {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 20px 31px 22px 31px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 16px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself {
+        width: 91%;
+        margin-left: 16px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself > input {
+        width: 100%;
+        padding: 11px 18px;
+        background: rgba(71, 71, 71, 0.15);
+        border-radius: 40px;
+        outline: 0;
+        border: 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature {
+        display: flex;
+        height: 50%;
+        padding-top: 23px;
+        border-top: 1px solid rgba(71, 71, 71, 0.25);
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .text-imgupl > p {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name > p {
+        padding-left: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload {
+        width: 30%;
+
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload .go-upload {
+        text-align: end;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload .go-upload > button {
+        padding: 10px 42px;
+        background: #4C5BD4;
+        text-align: center;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border: 0;
+    }
+
+    #main-exchange .posts-mysl {
+        width: 100%;
+        margin-top: 22px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        padding: 14px 15px 33px 10px;
+    }
+
+    #main-exchange.posts-mysl .inf0-you-all .in4-you {
+        display: flex;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .avt-y {
+        width: 10%;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y {
+        flex-grow: 1;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top {
+        display: flex;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top1 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top2 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top3 {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(71, 71, 71, 0.75);
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .time-upl {
+        margin-top: 5.5px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .item-option {
+        width: 4%;
+    }
+
+    #main-exchange .posts-mysl .posts-you a.tl {
+        display: none;
+    }
+
+    #main-exchange .posts-mysl .posts-you > p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments {
+        display: flex;
+        padding: 15px 0px;
+        justify-content: space-between;
+        border-top: 1px solid rgba(71, 71, 71, 0.25);
+        border-bottom: 1px solid rgba(71, 71, 71, 0.25);
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .emotion {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .emotion > p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(71, 71, 71, 0.75);
+        margin-left: 3px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .emotion-coments .coments-count > p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(71, 71, 71, 0.75);
+    }
+
+    #main-exchange .posts-mysl .coment-all .see-question > p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top {
+        display: flex;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top > img {
+        margin-right: 19px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .text-coments {
+        width: 95%;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl {
+        background: rgba(71, 71, 71, 0.15);
+        border-radius: 10px;
+        padding: 11.13px 16.28px 16.69px 16.69px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-info {
+        display: none;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop p.pl-name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pl-text > p {
+        padding-top: 5px;
+        width: 90%;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like {
+        display: flex;
+        padding-left: 65px;
+        width: 90%;
+        align-items: center;
+        margin-top: 11.77px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like p.text-tl {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #474747;
+    }
+
+    #main-exchange .posts-mysl .coment-all .pl-coments .pl-coments-like p.text-time {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: rgba(71, 71, 71, 0.75);
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your {
+        display: flex;
+        margin-top: 17px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        position: relative;
+    }
+
+    #main-exchange .avt-reply img {
+        margin-right: 19px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt input {
+        width: 100%;
+        height: 100%;
+        background: rgba(71, 71, 71, 0.15);
+        border-radius: 40px;
+        border: 0px;
+        padding-left: 22px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt img.stitem {
+        position: absolute;
+        right: 67px;
+    }
+
+    #main-exchange .posts-mysl .coment-all .reply-your .reply-cmt img.avtitem {
+        position: absolute;
+        right: 24px;
+    }
+
+    #main-exchange .all-question .right-question {
+        width: 33%;
+        right: 31px;
+        height: auto;
+    }
+
+    #main-exchange .all-question .right-question .list-name {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        margin-top: 23px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-top {
+        border-bottom: 1px solid rgba(71, 71, 71, 0.75);
+        padding: 14px 0px 16px 22px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 {
+        margin: 0px 20px 24px 22px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr th {
+        padding: 16px 0px;
+    }
+
+    #main-exchange .all-question .right-question .list-name .list-name-boost .table1 table tr td {
+        padding: 17px 0px;
+        border-top: 1px solid rgba(71, 71, 71, 0.25);
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #474747;
+        border-spacing: 0px;
+    }
+
+    #main-exchange .all-question .right-question {
+        display: none;
+    }
+
+    #main-exchange .seach-question .go-exchange {
+        width: 81%;
+        padding: 7px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #main-exchange .all-question .mid-center {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    #main-exchange .seach-question {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    #main-exchange {
+        margin: 46px 15px 0px 15px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin input {
+        margin-top: 10px;
+        padding: 5px 0px 5px 13px;
+    }
+
+    #main-exchange .seach-question .go-seach-questin .img-seach-question img {
+        top: 21px;
+        width: 15px;
+        height: 16px;
+    }
+
+    #main-exchange .seach-question .img-readinglisa {
+        position: absolute;
+        right: 10px;
+        top: -28px;
+        display: block;
+
+    }
+
+    #main-exchange .seach-question .go-exchange .img-exchange img {
+        width: 19px;
+        height: 18px;
+    }
+
+    #main-exchange .all-question .center-question .opstion {
+        display: none;
+    }
+
+    #main-exchange .all-question .center-question {
+        padding: 15px 13px 19px 10px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .text-myself input {
+        padding: 9px 8px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .dangnhap {
+        height: 35px;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself .dangnhap p.dn {
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .imgupl img {
+        width: 18px;
+        height: 15px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature {
+        padding-top: 15px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name .img-callname img {
+        width: 18px;
+        height: 18px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .upload-img .text-imgupl p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #main-exchange .all-question .center-question .select-feature .call-name p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .posts-mysl {
+        padding: 14px 13px 33px 10px;
+    }
+
+    .posts-mysl .inf0-you-all .in4-you .avt-y img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .posts-mysl .inf0-you-all .in4-you .inf0-y .inf0-y-top p.top2 {
+        display: none;
+    }
+
+    .posts-mysl .inf0-you-all .in4-you .inf0-y .top4 {
+        display: block;
+    }
+
+    .posts-mysl .inf0-you-all .in4-you .inf0-y .top4 p {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: normal;
+    }
+
+    .posts-mysl .inf0-you-all .emotion-coments .emotion img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .posts-mysl .inf0-you-all .emotion-coments {
+        padding: 14px 2px 14px 1px;
+    }
+
+    .posts-mysl .posts-you p {
+        display: block;
+    }
+
+    .posts-mysl .posts-you a.tl {
+        display: none;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .sauvang img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl {
+        padding: 8px 0.28px 15px 15px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top > img {
+        width: 14px;
+        height: 4px;
+    }
+
+    .posts-mysl .coment-all .reply-your {
+        display: flex;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt {
+        width: 60%;
+    }
+
+    #main-exchange .all-question .center-question .qusetion-myself {
+        padding-bottom: 15px;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt img.avtitem {
+        width: 18px;
+        height: 15px;
+    }
+
+    .posts-mysl .coment-all .reply-your .reply-cmt img.stitem {
+        width: 18px;
+        height: 18px;
+    }
+
+    #main-exchange .posts-mysl .inf0-you-all .in4-you .inf0-y .time-upl > p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop .sau3-lon img.imgsau3 {
+        display: block;
+    }
+
+    .posts-mysl .coment-all .pl-coments .pl-coments-top .pl .pltop img.sau3 {
+        display: block;
+    }
+
+    /* them */
+    #nkt2 .wiki-all {
+        width: 83%;
+    }
+
+    #nkt2 .wiki {
+        padding: 7px 20px;
+    }
+
+    #nkt2 .hove {
+        width: 100%;
+    }
+
+    /* them */
+    #header-hd .hd-img {
+        padding: 10px 20px 23px 20px;
+    }
+
+    #header-hd .hd-img .hd-img-left {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo .img-logo-lf .hd_logo_qr {
+        display: none;
+    }
+
+    #header-hd .hd-img .img-logo-rt {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0px;
+    }
+
+    #header-hd .hd-img img.hd_app-store {
+        margin-top: 0px;
+        width: 100px;
+        height: 29px;
+        margin-left: 14px;
+    }
+
+    #header-hd .hd-img .hd-img-left .hd-img-logo {
+        margin-top: 11px;
+    }
+
+    #header-hd .hd-img img.hd_chplay_hd {
+        width: 100px;
+        height: 29px;
+    }
+
+    #header-hd .hd-img .hd-img-them2 .hd-img-right {
+        width: 234px;
+        height: 126px;
+        margin-top: 15px;
+    }
+
+    #huong-dan-all #main-hd-con {
+        padding: 33px 35px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all .xem-hd1 {
+        margin-top: 20px;
+        width: 75%;
+        height: 286px;
+    }
+
+    #huong-dan-all #main-hd-con .hd-all {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #huong-dan-all #main-hd-con p.hd_phanmen {
+        font-size: 22px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+
+
+}

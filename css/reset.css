@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-display: swap
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-display: swap
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url(../fonts/Roboto-Bold.ttf)
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    font-family: Roboto, sans-serif!important
+}
+
+a,
+blockquote,
+button,
+code,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+p,
+pre,
+select,
+span,
+sub,
+td,
+textarea,
+th {
+    color: #333;
+    font-family: Roboto, sans-serif!important;
+    font-size: 16px;
+    line-height: 24px
+}
+
+a,
+button,
+input[type=reset],
+input[type=submit] {
+    cursor: pointer
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+i {
+    font-style: italic
+}
+
+strong {
+    font-weight: 700
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+a img,
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+a:hover {
+    text-decoration: none!important
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0
+}
+
+img {
+    -o-object-fit: cover!important;
+    object-fit: cover!important;
+    -o-object-position: center center!important;
+    object-position: center center!important
+}

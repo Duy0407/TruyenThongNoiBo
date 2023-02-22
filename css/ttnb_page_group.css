@@ -1,0 +1,147 @@
+.co-sidebar-phai #center .baiviet.ttnb_baiviet {
+    padding-top: 100px;
+}
+
+.baiviet .banner .edit-banner2 {
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 3px;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px 11px;
+    position: absolute;
+    /* top: 27px; */
+    right: 32px;
+    bottom: 20px;
+}
+
+.co-sidebar-phai .side-bar-phai {
+    width: 329px;
+    position: static;
+    margin-left: 23px;
+}
+
+.baiviet .banner>img {
+    height: 266px;
+}
+
+.v_logo_dep {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.baiviet .banner>.page_nhomtl_cover_img {
+    height: 236px;
+}
+
+.baiviet .banner .edit-banner2 .img {
+    margin-right: 9px;
+}
+
+.v_logo_group {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#center .side-bar-phai .thanhvien-moi .body>.v_info_ep {
+    position: static;
+}
+
+.v_page_group_member_new {
+    position: relative;
+}
+
+.v_info_ep:hover .v_info_ep_div {
+    display: flex;
+}
+
+.v_info_ep_div_img {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.v_info_ep_div {
+    margin-left: 17px;
+    margin-top: 10px;
+    display: none;
+    box-shadow: 0px 2px 5px 3px rgb(0 0 0 / 10%);
+    width: 221px;
+    height: 69px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    position: absolute;
+    top: -78px;
+    right: 0;
+}
+
+.v_info_ep_div1 {
+    margin-right: 11px;
+}
+
+.v_info_ep_div_name {
+    color: #474747;
+    font-weight: 500;
+}
+
+.v_info_ep_div_pos {
+    color: #FF3333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.v_info_ep_div_id {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.baiviet .banner .info-ct .cont p:first-child {
+    color: white;
+}
+
+.baiviet .banner .info-ct .cont p:last-child {
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .co-sidebar-phai #center .baiviet.ttnb_baiviet {
+        padding-top: 100px;
+    }
+    .baiviet .banner .edit-banner2 {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 5px 8px;
+    }
+    .co-sidebar-phai .side-bar-phai {
+        width: 283px;
+        position: static;
+        margin-left: 23px;
+    }
+}
+
+@media (max-width: 976px) {
+    .co-sidebar-phai .side-bar-phai {
+        width: 212px;
+        position: static;
+        margin-left: 23px;
+    }
+}
+
+@media (max-width: 720px) {
+    .co-sidebar-phai #center .baiviet.ttnb_baiviet {
+        padding-top: 0;
+    }
+    .baiviet .banner .edit-banner2 {
+        padding: 2.5px 8px;
+    }
+    .co-sidebar-phai .side-bar-phai {
+        width: 100%;
+        margin-left: 0;
+    }
+}

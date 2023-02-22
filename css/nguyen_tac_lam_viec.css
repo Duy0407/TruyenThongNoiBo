@@ -1,0 +1,97 @@
+.co-sidebar-phai #center {
+    position: relative;
+    gap: 23px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.v_side-bar-phai {
+    top: 100px;
+}
+
+.header-gt-mt.header-ngu {
+    position: relative;
+}
+
+.v_nguyentaclamviec_no{
+    width: 100%;
+}
+
+.cmt-binhluan .container-cmt {
+    display: none;
+}
+
+.header-gt-mt-cont {
+    flex-basis: 50%;
+}
+
+.v_text_add_nguyentac {
+    white-space: nowrap;
+}
+
+.img.nut-themnguyentac {
+    position: absolute;
+    right: 26px;
+    top: 17px;
+}
+
+.nut_gui_comment {
+    display: none;
+}
+
+.see_icon::before {
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: 49px;
+}
+
+.see_icon1::before {
+    content: "";
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nut_gui_comment {
+    top: 20px;
+}
+
+.menu-phu .menu-phu-d {
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.img.nut-themnguyentac {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width: 1200px) {
+    .v_giatri-muctieu02 {
+        flex-basis: calc(35% - 16px);
+    }
+}
+
+@media(max-width: 976px) {
+    .v_giatri-muctieu02 {
+        flex-basis: calc(35% - 4px);
+    }
+}
+
+@media(max-width: 480px) {
+    .co-sidebar-phai .v_vhdn_nguyen_tac {
+        width: 100% !important;
+        z-index: 1;
+    }
+    .nut-themnguyentac-p {
+        width: 111px;
+    }
+    #vanhoadoanhnghiep .baiviets-body .body-header>.img {
+        display: block;
+    }
+
+    .model_560 .cd_container{
+        width: 90%;
+    }
+}

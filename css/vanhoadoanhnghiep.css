@@ -1,0 +1,64 @@
+#center .side-bar-phai .dropdown:hover .dropdown-content {
+  display: block;
+  width: 100%;
+  border: 1px solid #4C5BD4;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+}
+
+.side-bar-phai>.dropdown .congty-info {
+  top: 50px;
+}
+
+#center .side-bar-phai>.dropdown .dropdown-content a:first-child {
+  border-radius: 0;
+}
+
+.side-bar-phai>.dropdown .dropbtn {
+  padding: 0 !important;
+}
+
+.menu-phu-d .cont p {
+  font-size: 14px;
+}
+
+.vid_found{
+  background: #F7F8FC;
+}
+
+@media(max-width: 976px){
+  .side-bar-phai>.dropdown .congty-info {
+    top: 40px;
+  }
+}
+
+@media(max-width: 720px){
+  .trang #hien-trang{
+    height: 100vh;
+  }
+
+  .menu-phu .menu-phu-d:first-child {
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .trang{
+    background: #CCCCCC;
+    overflow: unset;
+    width: 0;
+    display: none; 
+  }
+
+  .side-bar-phai>.dropdown .congty-info{
+    top: 40px;
+  }
+
+  .co-sidebar-phai #cdnhanvienc #center {
+    flex-wrap: wrap;
+  }
+
+  #cdnhanvienc .main-baiviet .baiviets-body .trai {
+    width: auto;
+  }
+}

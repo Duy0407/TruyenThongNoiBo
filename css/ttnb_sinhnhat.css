@@ -1,0 +1,42 @@
+.co-sidebar-phai #center .baiviet {
+    padding-top: 100px;
+}
+
+.main-baiviet ul .sinhnhat {
+    overflow-y: unset;
+}
+
+.co-sidebar-phai .side-bar-phai {
+    position: static;
+    width: 329px;
+    margin-left: 25px;
+}
+
+.avt_sinhnhat {
+    width: 35px !important;
+    border-radius: 50% !important;
+    height: 35px !important;
+}
+
+@media(max-width: 1200px) {
+    .co-sidebar-phai .side-bar-phai {
+        width: 283px;
+    }
+}
+
+@media(max-width: 976px) {
+    .co-sidebar-phai .side-bar-phai {
+        width: 212px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 720px) {
+    .co-sidebar-phai #center .baiviet {
+        padding-top: 0;
+    }
+    .co-sidebar-phai .side-bar-phai {
+        width: 100%;
+        margin-left: 15px;
+    }
+}

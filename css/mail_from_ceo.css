@@ -1,0 +1,59 @@
+.co-sidebar-phai #center .v_baiviet_mail_from_ceo {
+    padding-top: 100px;
+}
+
+.side-bar-phai>.dropdown .congty-info {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #4C5BD4;
+    z-index: 1;
+    top: 45px;
+}
+
+.menu-phu .menu-phu-d:first-child {
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.content-phu .body.body_list_letter::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 10px;
+}
+
+.content-phu .body.body_list_letter::-webkit-scrollbar {
+    width: 7px;
+}
+
+.content-phu .body.body_list_letter::-webkit-scrollbar-track {
+    background: #EBEEF5;
+}
+
+@media(max-width: 976px) {
+    .side-bar-phai>.dropdown .congty-info {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: #4C5BD4;
+        z-index: 1;
+        top: 35px;
+    }
+    #vanhoadoanhnghiep .side-bar-phai>.dropdown .dropbtn {
+        padding-left: 0px !important;
+    }
+}
+
+@media(max-width: 720px) {
+    .co-sidebar-phai #center .v_baiviet_mail_from_ceo {
+        padding-top: 0;
+    }
+    .co-sidebar-phai #cdnhanvienc #center {
+        flex-wrap: wrap-reverse;
+    }
+    #center .side-bar-phai>.dropdown .dropdown-content a {
+        padding-left: 10%;
+    }
+    #model_chitietthu .cd_container {
+        width: 90%;
+    }
+}

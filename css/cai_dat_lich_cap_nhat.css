@@ -1,0 +1,13 @@
+.co-sidebar-phai #center .baiviet {
+  padding-top: 100px;
+}
+
+@media(max-width: 720px){
+  .co-sidebar-phai #cdnhanvienc #center{
+    flex-wrap: wrap-reverse;
+  }
+
+  .co-sidebar-phai #center .baiviet {
+    padding-top: 0;
+  }
+}

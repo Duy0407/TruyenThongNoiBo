@@ -1,0 +1,12 @@
+#center .side-bar-phai .dropdown:hover .dropdown-content{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.nhom-trangcongty .cont p{
+	color: white;
+}
+
+.v_detail_sidebar_ntl_text{
+	color: white;
+}

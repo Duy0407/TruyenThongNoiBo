@@ -1,0 +1,102 @@
+@media all{
+  span{color: #fff;}
+  li{list-style: none;}
+  .vieclam_container{width:1170px;margin-right:auto;margin-left:auto;height:auto;}
+  .footer.foot{width:100%;background:#043379;height:auto;padding-bottom:30px;float:left;font-size:14px;}
+  .footer-left{width:42%;float:left;color:#fff;border-bottom:1px solid #d4d4d4;padding-bottom:20px;padding-right:1%;}
+  .foot-cod.foot-hid{padding:0;margin-bottom:0;line-height:22px;}
+  .foot-cod.foot-hid li:nth-child(1){font-size:22px;font-family:Roboto-Medium,sans-serif;line-height:22px;margin-bottom:14px;margin-top:30px;}
+  .foot-cod.foot-hid li:nth-child(1) span{font-size:14px;}
+  .foot-cod.foot-hid li:nth-child(2) a{font-size:14px;color:#fff;}
+  .foot-cod.foot-hid li:nth-child(4){margin-bottom:10px;}
+  .foot-cod.foot-show{width:45%;float:left;margin-top:5px;margin-bottom:0;margin-left:13px;}
+  .foot-cod.foot-show li{list-style:none;}
+  .foot-cod.foot-show li:before{content:"";border-color:transparent #fff;border-style:solid;border-width:6px 0 6px 9px;display:block;height:0;width:0;left:-18px;top:15px;position:relative;}
+  .foot-cod.foot-show a{color:#fff;line-height:22px;}
+  .dmca_icon:before{display:none!important;}
+  li.dmca_icon{margin-top:35px;}
+  .bct_icon{position:relative;left:-15px;}
+  .bct_icon img{height:40px;margin-right:25px;width: auto;}
+  .link_mxh{width:100%;float:left;margin-top:-20px;}
+  .link_mxh p{float:left;line-height:31px;color:#fff;font-size:16px;font-family:Roboto-Medium,sans-serif;}
+  .mxh{float:left;margin:0 15px;}
+  .foot-bot{width:100%;float:left;margin-bottom:30px;}
+  .bot-from{width:100%;float:left;margin-top:20px;}
+  .bot-from p{color:#fff;font-size:16px;font-family:Roboto-Medium,sans-serif;float:left;}
+  .bot-from ul{float:left;margin:0;}
+  .bot-from li{float:left;}
+  .bot-from a{color:#fff;font-size:15px;padding:0 0 0 10px;}
+  .foot-cod.foot-hid li{font-family:Roboto-Medium,sans-serif;}
+  .footer-right{width:57%;float:left;margin-top:38px;background:url(https://timviec365.vn/images/New_images/img_app_footer.png) no-repeat right 5px;padding-bottom:0px;padding-top:0;background-size:36% 96%;}
+  .footer-right-left{width:66%;float:left;}
+  .qr_timviec,.qr_cv{width:33.3%;float:right;margin-top:15px;text-align:center;}
+  .qr_timviec img, .qr_cv img,.button_dl_app img{width: auto;}
+  .qr_timviec p,.qr_cv p{color:#fff;font-size:14px;padding-right:6px;line-height:14px;margin-top:10px;}
+  .footer-right-top{width:100%;text-align:center;}
+  .footer-right-top p{font-size:17px;line-height:25px;text-align:center;color:#fff;}
+  .footer-right-bot{width:100%;float:left;margin-top:20px;}
+  .footer-right-bot .title_download{font-weight: 500;font-size: 17px;line-height: 20px;color: #FFFFFF;margin-bottom: 20px;}
+  .bot_btn_tv,.bot_btn_tv_uv,.bot_btn_app{width:214px;height:44px;float:left;}
+  .bot_btn_tv a,.bot_btn_tv_uv a,.bot_btn_app a{font-size:14px;color:#474747;line-height:44px;padding-left:50px;font-family:Roboto-Medium,sans-serif;}
+  .bot_btn_app a{padding-left:77px;}
+  .bot_btn_tv{background:url(https://timviec365.vn/images/New_images/bg_dl_ft.png) no-repeat;margin-right:12px;}
+  .bot_btn_tv_uv{background:url(https://timviec365.vn/images/New_images/bg_dl_ft1.png) no-repeat;}
+  .bot_btn_app{margin-top:15px;background:url(https://timviec365.vn/images/New_images/bg_dl_ft2.png) no-repeat;margin-left:25%;}
+  .foot-cod.foot-hid li:nth-child(2){background:url(https://timviec365.vn/images/New_images/icn_foot_local.png) no-repeat;padding:5px 0 5px 35px;}
+  .foot-cod.foot-hid li:nth-child(3),.foot-cod.foot-hid li:nth-child(4){padding-left:35px;}
+  .foot-cod.foot-hid li:nth-child(5){background:url(https://timviec365.vn/images/New_images/icn_foot_phone.png) no-repeat;padding:5px 0 5px 35px;}
+  .foot-cod.foot-hid li:nth-child(6){background:url(https://timviec365.vn/images/New_images/icn_foot_mail.png) no-repeat;padding:7px 0 5px 35px;}
+  ::-webkit-scrollbar-track{background-color:transparent;}
+  ::-webkit-scrollbar{width:4px;background-color:transparent;}
+  ::-webkit-scrollbar-thumb{background:#cacef2;border-radius:4px;}
+  @media screen and (max-width: 1200px){
+  .vieclam_container{width:auto;}
+  }
+  @media screen and (max-width: 1024px){
+  .footer-right-bot:last-child {display: none;}
+  .vieclam_container{background:#fff;}
+  ::placeholder{font-size:18px;font-family:Roboto-Regular,sans-serif;}
+  .vieclam_container{width:auto;}
+  .qr_timviec,.qr_cv,.footer-right-top{display:none;}
+  .footer.foot{box-sizing:border-box;width:100%;height:auto;float:left;padding:20px;position:relative;background:#043379 url(https://timviec365.vn/images/New_images/img_app_footer.png) no-repeat right 88px;background-size:200px 340px;}
+  .bot-from ul{float:none;}
+  .footer-left{width:100%;margin-right:0;font-size:14px;border:none;padding:0;padding-bottom:190px;}
+  .foot-cod.foot-hid li:nth-child(3),.foot-cod.foot-hid li:nth-child(4){margin-bottom:5px;}
+  li.dmca_icon{position:absolute;left:30px;margin:0;bottom:186px;}
+  .bot_btn_tv,.bot_btn_tv_uv,.bot_btn_app{margin:0;margin-bottom:12px;}
+  .footer-right{width:214px;position:absolute;background:unset;left:312px;bottom:128px;}
+  .foot-cod.foot-show{width:30%;}
+  li.dmca_icon a:nth-child(1) img{width:134px;height:53px;}
+  li.dmca_icon a:nth-child(2) img{height:53px;width:47.61px;}
+  .bot-from{line-height:25px;}
+  .bot-from p{width:130px;height:50px;}
+  .bot-from a{padding:0;padding-right:10px;}
+  }
+  @media screen and (max-width: 500px){
+  .foot-cod.foot-hid li:nth-child(1){font-size:20px;margin-top:0;}
+  .foot-cod.foot-hid{padding:0;margin-bottom:0;margin:0;border-bottom:1px dashed #fff;padding-bottom:17px;}
+  .foot-cod.foot-show{width:calc(50% - 18px);margin-left:18px;}
+  li.dmca_icon a:nth-child(1) img{width:106px;height:41px;}
+  li.dmca_icon a:nth-child(2) img{height:41px;width:37px;}
+  .footer.foot{box-sizing:border-box;width:100%;height:auto;padding:18px;float:left;background:#043379 url(https://timviec365.vn/images/New_images/img_app_footer.png) no-repeat right 440px;background-size:150px 234px;overflow: hidden;}
+  .footer-right{width:100%;position:unset;background:unset;left:0;bottom:0;margin:0;padding:0;}
+  li.dmca_icon{position:unset;margin-left:-5px;margin-top:10px;width:200%;}
+  li.dmca_icon a:nth-child(1) img{width:106px;height:41px;margin-right:10px;}
+  .footer-left{padding-bottom:0;}
+  .bot_btn_tv,.bot_btn_app,.bot_btn_tv_uv{width:214px;height:44px;float:left;margin-left:-5px;margin-bottom:12px;margin-top:0;}
+  .footer-right-left{width:100%;float:left;}
+  .footer-right-bot{width:100%;float:right;margin-top:7px;}
+  .bot-from p{width:130px;height:auto;}
+  .bot-from ul{float:left;width:100%;}
+  .bot-from{margin-bottom:5px;border-bottom:1px dashed #fff;padding-bottom:15px;}
+  .link_mxh p{width:100%;float:left;}
+  .bot_btn_tv a,.bot_btn_app a{font-size:14px;line-height:49px;padding-left:47px;}
+  .bot_btn_app a{padding-left:77px;}
+  }
+  @media screen and (max-width: 376px){
+  .footer.foot{background:#043379 url(https://timviec365.vn/images/New_images/img_app_footer.png) no-repeat right 390px;background-size:126px 221px;}
+  .foot-cod.foot-hid li:nth-child(1){font-size:19px;}
+  }
+  @font-face{font-family:Roboto-Medium;font-display:swap;src:url(https://timviec365.vn/fonts/Roboto-Medium.woff2);}
+  @font-face{font-family:Roboto-Regular;font-display:swap;src:url(https://timviec365.vn/fonts/Roboto-Regular.woff2);}
+  }

@@ -1,0 +1,107 @@
+.side-bar-1 {
+    z-index: 4;
+    border-radius: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.side-bar .box_side_bar1 {
+    background: #4c5bd4;
+    width: 280px;
+}
+
+.side-bar-menu1.side-bar-menu{
+    max-height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+
+.side-bar-menu1.side-bar-menu::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.side-bar-menu1.side-bar-menu::-webkit-scrollbar-track {
+  background: none; 
+}
+   
+.side-bar-menu1.side-bar-menu::-webkit-scrollbar-thumb {
+    background: none; 
+}
+
+.v_btn_chuyen_doi_so {
+    display: flex;
+    padding: 14px 23px;
+    width: 100%;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.side-bar-body .side-bar-menu li .v_btn_chuyen_doi_so .cont p {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.v_btn_chuyen_doi_so_div {
+    display: none;
+}
+
+.v_btn_chuyen_doi_svg {
+    margin-left: 10px;
+}
+
+.ep_info2{
+    display: none;
+}
+
+@media(max-width: 976px){
+    .wapper .side-bar.side-bar-2{
+        width: 70px;
+    }
+    .side-bar{
+        display: block;
+    }
+}
+@media(max-width: 720px){
+    .ep_info2 {
+        padding-top: 15px;
+        background: white;
+        display: block;
+        border-bottom: 1px solid #000000;
+    } 
+    .v_header_popup_menu{
+        overflow-y: scroll;
+        max-height: calc(100vh - 50px);
+    }
+    .v_header_popup_menu::-webkit-scrollbar {
+      width: 0;
+    }
+
+    .v_header_popup_menu::-webkit-scrollbar-track {
+      background: none; 
+    }
+     
+    .v_header_popup_menu::-webkit-scrollbar-thumb {
+      background: none; 
+    }
+    .ep_info_detail2{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .ep_info_detail_avt2{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .ep_info_detail_avt{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .ep_sb_name2 {
+        margin-left: 10px;
+        display: inline-block;
+        line-height: 30px;
+        font-weight: 500;
+    }
+}

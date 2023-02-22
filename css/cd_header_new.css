@@ -1,0 +1,133 @@
+.v_header_popup_menu{
+    overflow: auto;
+    max-height: calc(100vh - 100px);
+}
+.v_header_popup_menu::-webkit-scrollbar {
+    width: 0;
+}
+.cdnhanvienc .container-header{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.baiviet-search{
+    margin: 0;
+}
+.container-header-left{
+    position: fixed;
+    left: 0;
+    padding-left: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container-header-left-menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4C5BD4;
+}
+.container-header-left-btn{
+    border: none;
+    background: none;
+}
+.baiviet-search input{
+    max-width: 684px;
+    width: calc(100vw - 500px);
+    box-shadow: none;
+    background: #F7F8FC;
+    border: 1px solid #DDDDDD;
+}
+.cdnhanvienc .container_phai{
+    padding: 0;
+}
+.container-header-left-dropdown #side-bar{
+    top: unset;
+    width: unset;
+    bottom: unset;
+    display: block;
+}
+.container-header-left-dropdown{
+    position: fixed;
+    top: 78px;
+}
+.side-bar .box_side_bar1{
+    height: inherit;
+    border-radius: 0;
+}
+.open-container-header-mid, .container-header-mid-back{
+    border: none;
+    background: none;
+    display: none;
+}
+.cdnhanvienc .main-header{
+    min-height: unset;
+}
+.post_feel_search, .ep_post_write_input, .ep_show_cmt_content_detail{
+    background: #F2F2F2;
+}
+.cdnhanvienc .phai .menu{
+    gap: unset;
+}
+
+@media (max-width: 1100px) {
+    .ep_info2{
+        display: block;
+        margin: 15px 0;
+        border-bottom: 1px solid #000000;;
+    }
+    .v_header_popup_menu_avatar, .v_header_popup_menu_name, .v_header_popup_menu_id{
+        display: none !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .baiviet-search input{
+        width: calc(100vw - 420px);
+    }
+    #cdnhanvienc .container-header{
+        height: 78px;
+        background: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-header-left-menu{
+        display: none;
+    }
+    .container-header-left-small-menu{
+        display: block;
+    }
+    .mb{
+        display: none;
+    }
+    .mb_an{
+        display: block;
+    }
+    #cdnhanvienc .container_phai{
+        width: unset;
+    }
+    .cdnhanvienc #v_header_menu{
+        display: flex;
+    }
+    .cdnhanvienc .phai .menu{
+        gap: 10px;
+    }
+    .baiviet-search input{
+        margin-left: 20px;
+        width: calc(100% - 50px);
+        padding-right: 35px;
+    }
+    .baiviet-search{
+        width: calc(100vw - 30px);
+    }
+    .mobile_search{
+        display: none;
+    }
+    .open-container-header-mid, .container-header-mid-back{
+        display: inline-block;
+    }
+}

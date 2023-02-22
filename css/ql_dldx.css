@@ -1,0 +1,30 @@
+.box_center{
+  padding-top: 100px;
+}
+
+.vid_found{
+  background: #F7F8FC;
+}
+
+.box_list_del .overflow_y_del{
+  height: auto;
+}
+
+@media(max-width: 768px){
+  .row_table_list .thead_del img{
+    top: 0;
+    left: 0;
+  }
+}
+
+@media(max-width: 480px){
+  .box_center{
+    padding-top: 15px;
+  }
+
+  .row_table_list .thead_del img {
+    top: 11px;
+    position: static;
+    left: 70px;
+  }
+}

@@ -1,0 +1,258 @@
+.sidebar {
+    width: 356px;
+    height: 100vh;
+    border-right: 1px solid #CCCCCC;
+    padding-top: 15px;
+}
+
+.sidebar_header {
+    padding-left: 27px;
+    display: flex;
+    position: relative;
+}
+
+.sidebar_avatar {
+    margin-right: 10px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.sidebar_avatar>img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.sidebar_name {
+    max-width: 230px;
+    color: #474747;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.sidebar_dep {
+    max-width: 230px;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.chat_more_dropdown {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.sidebar_notify {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    background: white;
+    bottom: 0;
+}
+
+.sidebar_notify_detail {
+    background: #76B51B;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.sidebar_search {
+    width: 316px;
+    margin: 16px auto 0;
+    position: relative;
+}
+
+.sidebar_search_input {
+    height: 36px;
+    width: 316px;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    padding-left: 40px;
+}
+
+.sidebar_search_input::placeholder {
+    color: #999999;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.submit_search_chat {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+}
+
+.sidebar_action {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.sidebar_action_detail {
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+.sidebar_action_name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 12px;
+}
+
+.sb_action_svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.chat_mess_text {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 21px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.chat_block_mess_detail {
+    height: 72px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.chat_block_detail {
+    padding: 10px 0 0 20px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.chat_user_avatar {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.chat_box_notify {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    bottom: 5px;
+    right: 0;
+}
+
+.chat_box_notify2 {
+    background: #76B51B;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chat_block_info {
+    padding-top: 19px;
+    width: calc(100% - 56px - 85px);
+}
+
+.chat_block_detail {
+    margin-right: 15px;
+}
+
+.chat_block_info_name {
+    color: #474747;
+    font-weight: 500;
+    font-size: 15px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.chat_block_mess1 {
+    max-height: calc(100vh - 227px);
+    overflow-y: scroll;
+}
+
+.chat_block_mess1::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat_block_mess1::-webkit-scrollbar-track {
+    background: none;
+}
+
+.chat_block_mess1::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 10px;
+}
+
+.chat_block_mess {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 5px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.chat_block_time {
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.chat_block_mess_detail:hover {
+    background: #4C5BD4;
+}
+
+.chat_block_mess_detail:hover .chat_block_mess {
+    color: white;
+}
+
+.chat_block_mess_detail:hover .chat_block_info_name {
+    color: white;
+}
+
+.chat_block_mess_detail:hover .chat_block_time {
+    color: white;
+}

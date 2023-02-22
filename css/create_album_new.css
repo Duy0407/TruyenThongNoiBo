@@ -1,0 +1,134 @@
+.cdnhanvienc {
+    width: 100%;
+}
+#cdnhanvienc #center{
+    display: flex;
+    padding: 0;
+    margin-top: 78px;
+    z-index: 0;
+}
+.sidebar_index{
+    position: unset;
+    height: unset;
+    width: 357px;
+    box-shadow: none;
+    display: block;
+}
+.sidebar_index_body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: calc(100% - 64px);
+}
+.album_name{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #999999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 30px 0 25px;
+    background: none;
+}
+.upload_album_content{
+    background: #D6D9F5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4C5BD4;
+    text-align: center;
+    display: block;
+}
+.sidebar_album_bottom{
+    flex: 1; width: 100%;
+    max-width: 317px;
+    align-self: center;
+}
+.sidebar_index_footer_share{
+    background: #4C5BD4;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.sidebar_index_title_icon{
+    padding-right: 10px;
+}
+.sidebar_index_title{
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+}
+.center_content{
+    padding: 20px;
+    height: calc(100vh - 78px);
+    flex: 1;
+    overflow: auto;
+    min-width: 812px;
+}
+.center_content::-webkit-scrollbar{
+    width: 0;
+}
+.image_upload_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.image_upload_box_item{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFFFFF;
+    min-width: 250px;
+}
+.iubi_img{
+    height: 195px;
+    background-color: #e5e5e5;
+}
+.iubi_txtarea{
+    padding: 10px 5px;
+    margin: 0 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height: 79px;
+    resize: none;
+}
+.iubi_btn{
+    border: none;
+    background: none;
+    width: fit-content;
+    align-self: flex-end;
+    margin: 0 10px 10px;
+}
+@media (max-width: 1050px){
+    #center{
+        flex-direction: column;
+    }
+    .center_content{
+        min-width: unset;
+    }
+    .sidebar_index{
+        width: 100%;
+        background: none;
+    }
+    .sidebar_index_footer_share{
+        position: fixed;
+        bottom: 20px;
+        width: calc(100% - 40px);
+        right: 20px;
+    }
+}

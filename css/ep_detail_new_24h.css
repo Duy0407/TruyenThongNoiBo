@@ -1,0 +1,520 @@
+body,
+html {
+    overflow-x: hidden;
+    width: 100%
+}
+
+.side-bar {
+    display: none;
+}
+
+.show_sidebar_24h2 {
+    display: none;
+}
+
+.side-bar-1 {
+    background: rgba(0, 0, 0, .7);
+    z-index: 4;
+    border-radius: 0;
+}
+
+.side-bar .box_side_bar1 {
+    background: #4c5bd4;
+    width: 280px;
+}
+
+.sidebar_24h {
+    background: white;
+    width: 357px;
+    float: left;
+    position: fixed;
+    box-shadow: 2px 2px 12px 0px #00000026;
+    height: 100vh;
+}
+
+.cdnhanvienc {
+    width: calc(100% - 357px);
+}
+
+.sidebar_24h_header {
+    padding-left: 21px;
+    height: 77px;
+    padding-top: 25px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.sidebar_24h_header_back {
+    margin-right: 19px;
+}
+
+.sidebar_24h_body {
+    padding-left: 21px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.sidebar_24h_body_title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#center {
+    min-height: calc(100% - 78px);
+    position: relative;
+}
+
+.progess_bar {
+    background: #999999;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.loading {
+    width: 90%;
+    position: absolute;
+    height: 5px;
+    background: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.sidebar_24_action {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+
+.sidebar_24_action_btn {
+    border: none;
+    background: none;
+    color: #4C5BD4;
+    font-weight: 400;
+}
+
+.sidebar_24_action_btn:nth-child(1) {
+    margin-right: 12px;
+}
+
+.create_new_24h_title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.icon_create_new_24h {
+    margin-right: 15px;
+}
+
+.create_new_24h_text {
+    display: inline-block;
+}
+
+.create_new_24h {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.create_new_24h_text_item {
+    color: #474747;
+    font-weight: 500;
+}
+
+.create_new_24h_text_card {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.all_new_title {
+    color: #474747;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.new_24h_detail {
+    height: calc(100% - 273px);
+    overflow-y: scroll;
+}
+
+.new_24h_detail::-webkit-scrollbar {
+    width: 7px;
+}
+
+.new_24h_detail:-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.new_24h_detail::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.new_24h_detail_item {
+    height: 72px;
+    display: flex;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-left: 11px;
+}
+
+.new_24h_detail_item:hover {
+    background: #DDDDDD;
+    border-radius: 5px;
+}
+
+.new_24h_detail_box {
+    border: 3px solid #999999;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 15px;
+    position: relative;
+}
+
+
+
+.new_24h_detail_avt {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.select_setting {
+    width: 20px;
+    height: 20px;
+}
+
+.setting_show2_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.new_24h_detail_box_username {
+    color: #474747;
+    font-weight: 500;
+}
+
+.new_24h_detail_box_time {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#center {
+    margin-top: 78px;
+    background: #333333;
+    width: 100%;
+    padding-bottom: 33px;
+}
+
+.setting_show {
+    margin-top: 20px;
+}
+
+.center_slick {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    max-height: 500px;
+    padding-top: 20px;
+}
+
+.center_slick_img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.center_slick_div {
+    position: relative;
+}
+
+.slick-next:before,
+.slick-prev::before {
+    content: "";
+}
+
+.slick-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.slick-next {
+    width: 50px;
+    height: 50px;
+    right: -70px;
+}
+
+.center_slick_info {
+    position: absolute;
+    display: flex;
+    top: 25px;
+    left: 10px;
+    width: calc(100% - 10px);
+}
+
+.center_slick_info_avt {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.center_slick_info_username {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.center_slick_info_time {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slick-slide .center_slick_action {
+    display: inline;
+    margin-left: 18px;
+}
+
+.center_slick_detail {
+    position: absolute;
+    right: 12px;
+}
+
+.cmt_24h_input {
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    color: white;
+    width: 100%;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form_cmt_24h_submit{
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: none;
+}
+
+.cmt_24h_drop_feel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.cmt_24h_input::placeholder {
+    color: white;
+    font-weight: 400;
+}
+
+.slick-slide img {
+    max-height: 480px;
+}
+
+.form_cmt_24h {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.cmt_24h_feel {
+    margin-left: 15px;
+}
+
+.popup_action_new_24h {
+    background: white;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 2px 8px 0px #00000026;
+    position: absolute;
+    border-radius: 10px;
+    width: 341px;
+    z-index: 1;
+    right: -10px;
+    display: none;
+}
+
+.popup_action_new_24h_item {
+    cursor: pointer;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.slick-slide img.news_24h_turnoff {
+    margin-right: 15px;
+    display: inline;
+}
+
+.popup_action_new_24h_item:hover {
+    background: #DDDDDD;
+}
+
+.popup_action_new_24h_item:nth-child(1):hover {
+    border-radius: 10px 10px 0 0;
+}
+
+.popup_action_new_24h_item:nth-child(2):hover {
+    border-radius: 0 0 10px 10px;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+.turnoff_new {
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    padding-top: 80px;
+    display: none;
+}
+
+.turnoff_new_detail {
+    box-shadow: 0px 2px 8px 0px #00000026;
+    width: 560px;
+    margin: 0 auto;
+}
+
+.turnoff_new_header {
+    height: 50px;
+    background: #4C5BD4;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 21px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+
+.turnoff_popup {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.turnoff_new_body {
+    background: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.turnoff_new_body_content {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.turnoff_new_body_title {
+    text-align: center;
+    color: #474747;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+
+.turnoff_btn_action {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 31px;
+}
+
+.turnoff_btn_del_popup {
+    border: 1px solid #4C5BD4;
+    background: white;
+    color: #4C5BD4;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 50px;
+    height: 36px;
+}
+
+.turnoff_btn {
+    background: #4C5BD4;
+    border: none;
+    height: 36px;
+    border-radius: 50px;
+    width: 200px;
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    .wapper .side-bar.side-bar-2 {
+        display: none;
+    }
+    .wapper .side-bar {
+        z-index: 4;
+    }
+    .sidebar_24h {
+        display: none;
+    }
+    .cdnhanvienc {
+        width: 100%;
+    }
+    #cdnhanvienc #center {
+        width: 100%;
+    }
+    .show_sidebar_24h2 {
+        display: block;
+        position: fixed;
+        top: 24px;
+        left: 32px;
+        z-index: 3;
+    }
+}
+
+@media(max-width: 976px) {
+    .form_cmt_24h {
+        width: 95%;
+    }
+    .cmt_24h_input {
+        margin-right: 9px;
+    }
+}
+
+@media (max-width: 720px) {
+    .turnoff_new_detail{
+        width: 90%;
+    }
+    .show_sidebar_24h2 {
+        display: none;
+    }
+    #cdnhanvienc #center {
+        margin-top: 0;
+    }
+    .block_drop_feel {
+        max-width: 50%;
+        overflow-x: scroll;
+        display: flex;
+    }
+    .setting_detail {
+        width: 90%;
+    }
+}

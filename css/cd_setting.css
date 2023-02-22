@@ -1,0 +1,13 @@
+.box_center{
+  padding-top: 100px;
+}
+
+.vid_found{
+  background: #f7f8fc;
+}
+
+@media(max-width: 720px){
+  .box_center{
+    padding-top: 20px;
+  }
+}
