@@ -1,0 +1,66 @@
+.co-sidebar-phai #center .baiviet.ttnb_baiviet {
+    padding-top: 100px;
+}
+
+.vid_found {
+    background: #f7f8fc;
+}
+
+.see_icon::before {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 51px;
+}
+
+.see_icon1::before {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.co-sidebar-phai #center .baiviet.ttnb_baiviet {
+    width: calc(100% - 329px - 3% - 19px);
+}
+
+.co-sidebar-phai .side-bar-phai {
+    position: static;
+    width: 329px;
+    margin-left: 19px;
+}
+
+.baiviet .banner .info-ct .cont p:first-child {
+    color: white;
+}
+
+.baiviet .banner .info-ct .cont p:last-child {
+    color: white;
+}
+
+.v_ghim {
+    top: 0;
+}
+
+.v_nhacten_span {
+    top: 0;
+}
+
+.nut_gui_comment {
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .co-sidebar-phai #center .baiviet.ttnb_baiviet {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 720px) {
+    .co-sidebar-phai #center .baiviet.ttnb_baiviet {
+        padding-top: 0;
+    }
+    .trang {
+        background: #999999;
+    }
+}

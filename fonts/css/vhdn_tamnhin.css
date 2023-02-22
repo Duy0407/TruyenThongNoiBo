@@ -1,0 +1,91 @@
+.co-sidebar-phai #center .baiviet{
+  padding-top: 100px;
+}
+
+.content-phu .body>.v_tamnhin_p{
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.v_info-cf-time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-phu .body>.v_tamnhin_p::-webkit-scrollbar{
+  width: 7px;
+}
+
+.v_edit_com_time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.thongtin-ct:first-child .v_edit_com_time_p{
+  color: #4c5bd4;
+  margin-right: 7px;
+  font-weight: 400;
+}
+
+.content-phu .body>.v_tamnhin_p::-webkit-scrollbar-track{
+  background: none; 
+}
+
+
+.content-phu .body>.v_tamnhin_p::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 10px;
+}
+
+.content-phu .body>.v_tamnhin_p::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.v_img-logo-com{
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+}
+
+.menu-phu .menu-phu-d:first-child{
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+.thongtin-ct .header{
+  position: relative;
+}
+
+.thongtin-ct .header>.nut-edit-mota{
+  display: inline-flex;
+  width: auto;
+  /*position: absolute;
+  right: 0;*/
+}
+
+.thongtin-ct .header>.img{
+  width: auto;
+}
+
+
+@media(max-width:  720px){
+  .co-sidebar-phai #cdnhanvienc #center {
+    flex-wrap: wrap-reverse;
+  }
+
+  .khongmenu_480 #center .side-bar-phai .dropdown{
+    margin-right: 20px;
+  }
+
+  .menu-phu .menu-phu-d:first-child{
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+  .co-sidebar-phai #center .baiviet{
+    padding-top: 0;
+  }
+}

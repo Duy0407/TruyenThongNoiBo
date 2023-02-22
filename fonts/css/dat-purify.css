@@ -1,0 +1,208 @@
+/*.content02 {
+  flex-wrap: wrap
+}
+
+.popup_working_rules {
+  position: absolute;
+  top: 10px;
+  width: 285px;
+  right: 0;
+  display: none;
+  z-index: 1
+}*/
+
+/*.form_dangtin_btn_span {
+  color: #fff;
+  font-weight: 700
+}
+
+.form_dangtin_loading {
+  display: none;
+  margin-right: 0;
+  width: 30px
+}*/
+
+/*.file_edit_rules {
+  display: none
+}
+
+.v_name_file_rules {
+  cursor: pointer
+}
+
+.v_nut-tuychinhnt {
+  position: relative
+}*/
+
+/*.model-chinhsuabinhchon .v_file_text {
+  cursor: pointer
+}
+
+.v_like_post3 {
+  color: #4c5bd4
+}
+
+.v_avt_reply_comment {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px
+}*/
+
+/*.v_img_load_form_mail_from_ceo {
+  width: 35px;
+  display: none
+}*/
+
+/*.list_mail_err {
+  padding-top: 15px
+}
+
+.model-chinhsuabinhchon .v_file_option {
+  display: none
+}
+
+.info02 {
+  flex-basis: 100%
+}*/
+
+/*#nut-taianh {
+  display: none
+}*/
+
+/*.v_themsukien {
+  color: #4c5bd4
+}*/
+
+/*.v_add_vote_option,
+.v_add_vote_option02 {
+  cursor: pointer;
+  color: #4c5bd4;
+  text-align: right;
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 16px
+}*/
+
+/*.v_binhchon_vote {
+  flex-wrap: wrap
+}*/
+
+/*.v_vote_option {
+  position: relative
+}*/
+
+/*.v_add_vote_option_del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%)
+}*/
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-medium.ttf) format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-bold.ttf) format("woff2");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-medium.ttf) format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-bold.ttf) format("woff2");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-medium.ttf) format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-bold.ttf) format("woff2");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-medium.ttf) format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: roboto;
+  font-display: swap;
+  src: url(../fonts/roboto-bold.ttf) format("woff2");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  box-sizing: border-box;
+}

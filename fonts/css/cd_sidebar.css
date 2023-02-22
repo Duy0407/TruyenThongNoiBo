@@ -1,0 +1,9 @@
+.side-bar{
+  width: 280px;
+}
+
+@media(max-width: 1025px){
+  .wapper .side-bar.side-bar-2{
+    width: 92px;
+  }
+}

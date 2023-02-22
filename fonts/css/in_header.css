@@ -1,0 +1,117 @@
+#header-hd .nav-hd {
+  background: #4C5BD4;
+  width: 100%;
+  padding: 13px 42px 13px 46px;
+  display: flex;
+  align-items: center;
+}
+
+.menutranghu768{
+  display: none;
+}
+
+#header-hd .nav-hd .nav-hd-logo {
+  width: 50%;
+}
+
+#header-hd .nav-hd .nav-hd-menu {
+  width: 50%;
+}
+
+#header-hd .nav-hd .nav-hd-menu>.nav-hd-menu-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#header-hd .nav-hd .nav-hd-menu .nav-hd-menu-list .nav-hd-menu-list-item {
+  margin-right: 33px;
+}
+
+#header-hd .nav-hd .nav-hd-menu .nav-hd-menu-list .nav-hd-menu-list-item .nav-hd-menu-item-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#header-hd .nav-hd .nav-hd-menu .dk {
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 9px 28px;
+  color: #4C5BD4;
+}
+
+.nav2{
+  display: none;
+}
+
+.nav2 .menu-768{
+  display: none;
+}
+
+@media(max-width: 1200px){
+  #header-hd .nav-hd{
+    display: none;
+  }
+
+  .nav2 {
+    position: relative;
+    background: #4C5BD4;
+    display: flex;
+    padding: 15px 26px 13px 26px;
+    align-items: center;
+  }
+
+  .menutranghu768 {
+      display: block;
+      position: absolute;
+      left: 15px;
+      z-index: 1;
+  }
+
+  .nav2 .menu-768 {
+    display: none;
+    position: absolute;
+    background: #4C5BD4;
+    top: 61px;
+    left: 0px;
+  }
+
+  .logmenu768{
+    margin: 0 auto;
+  }
+
+  .nav2 .menu-768 .menu-trangchu {
+    display: flex;
+    padding: 10px 69px 10px 26px;
+  }
+
+  .menu-768 .menu-huongdan {
+    display: flex;
+    padding: 10px 69px 10px 26px;
+  }
+
+  .menu-768 .menu-tỉtuc {
+    display: flex;
+    padding: 10px 69px 10px 26px;
+  }
+
+  .menu-768 .menu-dangnhap {
+    display: flex;
+    padding: 10px 69px 10px 26px;
+  }
+
+  .menu-768 .menu-dangky {
+    display: flex;
+    padding: 10px 69px 10px 26px;
+  }
+
+  .menu-768 .pmenu {
+    padding-left: 17px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+}

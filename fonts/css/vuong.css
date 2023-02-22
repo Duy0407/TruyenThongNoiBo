@@ -1,0 +1,168 @@
+.cdnhanvienc{
+    padding-right: 23px;
+}
+.co-sidebar-phai #center{
+    position: relative;
+    gap: 23px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+.add_core_value,
+.add_target{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    cursor: pointer;
+}
+
+.v_add_core_value,
+.v_add_target{
+    right: calc(100%*1/3);
+}
+
+.add_core_value_span{
+    position: relative;
+    top: -5px;
+    font-size: 16px;
+    color: #4C5BD4;
+    font-weight: 400;
+}
+
+.main-baiviet .baiviets-body .status p{
+    line-height: 20px;
+}
+.co-sidebar-phai .v_side-bar-phai{
+    position: static !important;
+    float: unset;
+    flex-basis: calc(100%/3 - 23px - 24px);
+}
+.co-sidebar-phai #center .baiviet{
+    padding-left: 24px;
+    padding-top: 0;
+}
+.co-sidebar-phai .v_vhdn_nguyen_tac{
+    position: absolute !important;
+    right: 0px;
+    width: 29.5% !important;
+    z-index: 1;
+}
+.v_baiviet2{
+    width: 100% !important;
+}
+.v_menu{
+    margin-left: 24px;
+    flex-basis: calc(100%*2/3);
+    display: flex;
+    border-bottom: 1px solid #666666;
+    flex-wrap: wrap;
+}
+.v_baiviet_ul{
+    flex-basis: 100%;
+}
+.giatri-muctieu:first-child .giatri-muctieu_detail{
+    margin-top: 2px !important;
+    position: relative;
+}
+.v_core_value,
+.v_target{
+    flex-basis: 50%;
+    color: #666666;
+    text-align: center;
+    font-weight: 700;
+    line-height: 50px;
+    cursor: pointer;
+}
+.giatri-muctieu{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background: none !important;
+    gap: 23px;
+    align-items: baseline;
+}
+.v_nguyentaclamviec_no{
+    width: 67%;
+    display: block;
+    background: white !important;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.v_nguyentaclamviec_no .header-ngu{
+    border-bottom: none !important;
+}
+.giatri-muctieu_detail{
+    background: white;
+    flex-basis: 75%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.v_giatri-muctieu_detail{
+    flex-basis: 100%;
+}
+.v_giatri-muctieu_body{
+    border-bottom: none !important;
+}
+.v_giatri-muctieu02{
+    background: white !important;
+    flex-basis: calc(35% - 23px);
+    position: sticky !important;
+    top: 180px !important;
+}
+.v_giatri-muctieu03{
+    position: relative;
+}
+
+.v_nguyentac02{
+	background: none !important;
+}
+.main-baiviet{
+    position: relative;
+	box-shadow: none;
+}
+.v_baiviet_ul_target{
+    display: none;
+}
+@media(max-width: 1300px){
+    .main-baiviet .baiviets-body .status p{
+        line-height: 20px;
+    }
+    .main-baiviet .baiviets-body .v_lc{
+        justify-content: space-between;
+    }
+}
+@media(max-width: 480px){
+	.giatri-muctieu{
+        position: relative;
+    }
+    .cdnhanvienc{
+        padding-right: 0;
+    }
+    .co-sidebar-phai #center .baiviet{
+        padding-left: 0;
+    }
+    .v_menu{
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    .co-sidebar-phai .v_side-bar-phai{
+        flex-basis: 100%;
+    }
+	.v_side-bar-phai{
+		position: static !important;
+	}
+	.v_side-bar-phai{
+        position: static !important;
+        width: 90% !important;
+        margin: 15px auto;
+        float: unset !important;
+    }
+    .v_giatri-muctieu02{
+        display: none;
+    }
+    .giatri-muctieu_detail{
+        flex-basis: 100% !important;
+    }
+    .v_giatri-muctieu02{
+        position: absolute;
+        top: 95px;
+        right: 0;
+    }
+}

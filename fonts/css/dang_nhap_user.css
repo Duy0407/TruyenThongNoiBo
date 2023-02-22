@@ -1,0 +1,323 @@
+.dangky-dangnhap .main {
+    background: url(../img/bg_dn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.trangchu_tdn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    padding-top: 136px;
+}
+
+#dntaikhoanct .container {
+    width: 655px;
+    margin: auto;
+}
+
+#dntaikhoanct .form {
+    padding: 27px 65.5px;
+    padding-bottom: 71px;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+#dntaikhoanct .form-header {
+    text-align: center;
+}
+
+.dangky-dangnhap .form-header .form-header-img-back {
+    cursor: pointer;
+    margin-top: 8px;
+    float: left;
+    color: #666666;
+}
+
+.dangky-dangnhap .form-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #4C5BD4;
+}
+
+#dntaikhoanct .form-body {
+    margin-top: 34px;
+}
+
+#dntaikhoanct .form-body>.form-body-label {
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+    text-align: center;
+    display: block;
+}
+
+#dntaikhoanct .congty {
+    margin-top: 33px;
+}
+
+#dntaikhoanct .input .title {
+    margin-top: 33px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474747;
+}
+
+.dangky-dangnhap .title .title_span {
+    color: red;
+}
+
+.form-footer-submit-span {
+    color: white;
+    font-weight: 700;
+}
+
+.form-footer-submit-loading {
+    width: 25px;
+    display: none;
+}
+
+.dangky-dangnhap .form-body-input {
+    text-align: left;
+    margin-top: 9px;
+    padding: 10px 12px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    outline: 0px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.form-input_password {
+    position: relative;
+}
+
+.dangky-dangnhap .see_inp {
+    float: right;
+}
+
+.dangky-dangnhap .see_inp .see_inp_img {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 11px;
+    background: url(../img/mat.png)no-repeat;
+    width: 22.25px;
+    height: 19.15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#dntaikhoanct .body-duoi {
+    line-height: 0px;
+    margin-top: 44px;
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dntaikhoanct .body-duoi .nhapma {
+    flex-basis: 100%;
+}
+
+#dntaikhoanct .nhapma .nhapma_label {
+    font-size: 14px;
+    line-height: 16px;
+    color: #474747;
+}
+
+#dntaikhoanct .body-duoi .trai {
+    flex-basis: calc(50% - 8px);
+}
+
+.dangky-dangnhap .nhapma_input {
+    text-align: left;
+    margin-top: 9px;
+    padding: 10px 12px;
+    width: 100%;
+    outline: 0px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    height: 41.17px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#dntaikhoanct .body-duoi .phai {
+    flex-basis: calc(50% - 8px);
+}
+
+.trangchu_tdn .ma {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trangchu_tdn .manhap {
+    background: #C4C4C4;
+    border-radius: 3px;
+    padding: 6px 38px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-right: 6px;
+}
+
+#dntaikhoanct .body-duoi .phai .ma .v_doimacaptcha {
+    width: 26.71px;
+    height: 31.55px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+
+#dntaikhoanct .form-body>#v_error_captcha {
+    display: block;
+    float: right;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#dntaikhoanct .form-footer {
+    margin-top: 54px;
+    text-align: center;
+}
+
+.dangky-dangnhap .btn {
+    padding-left: 0px;
+    margin-top: 23px;
+    width: 100%;
+}
+
+.dangky-dangnhap .btn .form-footer-submit {
+    background: #4c5bd4;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    clear: both;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#v_err_emailpass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    color: red;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: italic;
+}
+
+#dntaikhoanct .quenmk {
+    margin-top: 10px;
+}
+
+#dntaikhoanct .quenmk .quenmk_link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c5bd4;
+}
+
+#dntaikhoanct .dangkingay {
+    margin-top: 10px;
+}
+
+#dntaikhoanct .dangkingay .dangkingay-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #494949;
+}
+
+#dntaikhoanct .dangkingay .dangkingay-label .dangkingay-label-link {
+    color: orange;
+}
+
+.nav-hd-menu-item-link.dka {
+    color: #4C5BD4;
+    font-weight: 700;
+}
+
+.error {
+    color: red;
+}
+
+@media(max-width: 720px) {
+    #dntaikhoanct .form {
+        padding: 31px 0 44px 0;
+        width: 343px;
+        margin: 0 auto;
+    }
+    .dangky-dangnhap .form-title {
+        font-size: 22px;
+    }
+    .dangky-dangnhap .form-header .form-header-img-back {
+        margin-top: 8px;
+        float: left;
+        margin-left: 15px;
+    }
+    .dangky-dangnhap .form-body-input {
+        width: 315px;
+        margin: 0 auto;
+        display: block;
+    }
+    #dntaikhoanct .input .title {
+        padding-left: 14px;
+    }
+    #dntaikhoanct .body-duoi {
+        justify-content: flex-start;
+        padding-left: 14px;
+        /* padding-right: 14px; */
+    }
+    #dntaikhoanct .body-duoi .trai {
+        margin-right: 8px;
+    }
+    .dangky-dangnhap #v_manhap {
+        width: 115px;
+        padding: 0;
+        height: 36px;
+        margin-left: 0;
+        font-size: 18px;
+        margin-right: 0;
+    }
+    .dangky-dangnhap .nhapma_input {
+        width: 150px;
+    }
+    #dntaikhoanct .body-duoi .phai .ma .v_doimacaptcha {
+        margin-right: 7px;
+    }
+    .dangky-dangnhap .see_inp .see_inp_img {
+        top: 10px;
+        right: 19px;
+    }
+    .dangky-dangnhap .btn .form-footer-submit {
+        width: 315px;
+    }
+    .error {
+        margin-left: 14px;
+    }
+}

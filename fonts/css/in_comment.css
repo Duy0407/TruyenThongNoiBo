@@ -1,0 +1,55 @@
+.v_comment_active .nut_gui_comment {
+    display: none;
+}
+
+.v_comment_active .see_icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 51px;
+}
+
+.cmt-binhluan .container-cmt {
+    display: none;
+}
+
+.v_comment_active .nut_gui_comment {
+    position: absolute;
+    top: 20px;
+}
+
+.container-cmt {
+    position: relative;
+}
+
+.container-cmt .see_icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 51px;
+}
+
+.container-cmt .see_icon1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+}
+
+.container-cmt .nut_gui_comment {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.v_comment_active .see_icon1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+}

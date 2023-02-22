@@ -1,0 +1,53 @@
+.co-sidebar-phai #center {
+    padding-top: 100px;
+}
+
+.see_icon::before {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 51px;
+}
+
+.see_icon1::before {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.nut_gui_comment {
+    display: none;
+    top: 20px;
+}
+
+.cmt-binhluan .container-cmt {
+    display: none;
+}
+
+.co-sidebar-phai #center .baiviet {
+    padding-left: 24px;
+    padding-top: 50px;
+}
+
+.dropbtn .menu-phu-d {
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+@media(max-width: 720px) {
+    .co-sidebar-phai .side-bar-phai {
+        position: absolute !important;
+        width: 27%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .co-sidebar-phai #center .baiviet {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .menu-phu {
+        position: relative;
+    }
+    .co-sidebar-phai #cdnhanvienc #center {
+        gap: 51px;
+    }
+}

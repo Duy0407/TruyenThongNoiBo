@@ -1,0 +1,227 @@
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    font-family: Roboto, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select,
+span,
+a,
+p,
+sub,
+blockquote,
+th,
+td {
+    color: #333;
+    font-family: Roboto, sans-serif !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button,
+a,
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+i {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a img,
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+select:focus,
+input:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+img {
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+    -o-object-position: center center !important;
+    object-position: center center !important;
+}

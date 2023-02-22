@@ -1,0 +1,26 @@
+.co-sidebar-phai #center .baiviet {
+  padding-top: 100px;
+}
+
+.content-phu .body .v_list_group::-webkit-scrollbar {
+  width: 7px;
+}
+
+.menu-phu .menu-phu-d:first-child{
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+@media(max-width: 720px){
+  .co-sidebar-phai #cdnhanvienc #center{
+    flex-wrap: wrap-reverse;
+  }
+  .menu-phu .menu-phu-d:first-child{
+    padding-left: 10px;
+  }
+
+  .co-sidebar-phai #center .baiviet{
+    padding-top: 0;
+  }
+
+}

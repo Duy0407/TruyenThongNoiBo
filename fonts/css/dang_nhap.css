@@ -1,0 +1,139 @@
+.dangky-dangnhap .main {
+    background: url(../img/bg_dn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.trangchu_tdn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    padding-top: 136px;
+}
+
+#dangnhap .container {
+    width: 562px;
+    margin: auto;
+}
+
+.nav-hd-menu-item-link.dka {
+    color: #4C5BD4;
+    font-weight: 700;
+}
+
+#dangnhap .form {
+    padding: 37px 38.42px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+#dangnhap .form-header {
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.v_form-header__back {
+    background: none;
+    border: none;
+    float: left;
+    cursor: pointer;
+}
+
+.dangky-dangnhap .form-header .icon_back {
+    cursor: pointer;
+    margin-top: 8px;
+    float: left;
+    color: #666666;
+}
+
+#dangnhap .form-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: #4C5BD4;
+}
+
+#dangnhap .form-body .form-body-label {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #666666;
+}
+
+#dangnhap .luachon {
+    margin-top: 15px;
+}
+
+#dangnhap .chon {
+    height: 120px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 35.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#dangnhap .luachon .congty02-image {
+    color: #4c5bd4;
+    border-radius: 5px;
+}
+
+#dangnhap .content {
+    float: left;
+    text-align: left;
+    width: 67%;
+}
+
+#dangnhap .title .content-title-p {
+    color: #474747;
+    font-weight: 500;
+}
+
+#dangnhap .cont {
+    margin-top: 10px;
+    display: flex;
+    line-height: 24px;
+}
+
+#dangnhap .cont .content-title-p2 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+#dangnhap .luachon .icon_next {
+    color: #4c5bd4;
+    border-radius: 5px;
+}
+
+@media(max-width: 1200px) {
+    .dangky-dangnhap .main {
+        background-position-x: 100%;
+        background-size: auto 100%;
+    }
+    #dangnhap .form {
+        padding: 33px 18px;
+        padding-bottom: 72px;
+    }
+    .cont {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 24px;
+    }
+}
+
+@media(max-width: 720px) {
+    #dangnhap .form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
